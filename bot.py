@@ -2,13 +2,32 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from config import BOT_TOKEN
-from handlers import start
+from aiogram.client.default import DefaultBotProperties
 
-bot = Bot(token=BOT_TOKEN, parse_mode=ParseMode.HTML)
+bot = Bot(
+    token=BOT_TOKEN,
+    default=DefaultBotProperties(parse_mode=ParseMode.HTML)
+)
+
 dp = Dispatcher()
 
-# Регистрация всех роутеров
-dp.include_routers(start.router)
+from handlers import (
+    start, helper, education, early,
+    pre_school, materials, gifts,
+    progress, contact
+)
+
+dp.include_routers(
+    start.router,
+    helper.router,
+    education.router,
+    early.router,
+    pre_school.router,
+    materials.router,
+    gifts.router,
+    progress.router,
+    contact.router
+)
 
 async def main():
     print("🤖 Бот запущен!")
