@@ -1,38 +1,36 @@
 import json
 from pathlib import Path
 from datetime import datetime
+from typing import List, Dict
 
 PROGRESS_FILE = Path("data/progress.json")
 
+# Инициализация файла
 if not PROGRESS_FILE.exists():
     PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
     PROGRESS_FILE.write_text(json.dumps({}, indent=2), encoding="utf-8")
 
+def _read_progress_data() -> Dict[str, List[Dict[str, str]]]:
+    text = PROGRESS_FILE.read_text(encoding="utf-8").strip()
+    return json.loads(text) if text and text.startswith("{") else {}
+
 def update_progress(user_id: int, activity: str) -> None:
-    text = PROGRESS_FILE.read_text(encoding="utf-8").strip() if PROGRESS_FILE.exists() else ""
-
-    if not text or not text.startswith("{"):
-        data = {}
-    else:
-        data = json.loads(text)
-
+    data = _read_progress_data()
     now = datetime.now().isoformat(timespec='seconds')
 
-    if str(user_id) not in data:
-        data[str(user_id)] = []
-
-    data[str(user_id)].append({"activity": activity, "timestamp": now})
+    data.setdefault(str(user_id), []).append({
+        "activity": activity,
+        "timestamp": now
+    })
 
     PROGRESS_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
-def get_progress(user_id: int) -> list[dict]:
-    text = PROGRESS_FILE.read_text(encoding="utf-8").strip()
-    data = json.loads(text) if text else {}
+def get_progress(user_id: int) -> List[Dict[str, str]]:
+    data = _read_progress_data()
     return data.get(str(user_id), [])
 
-def get_last_activities(user_id: int, limit: int = 5) -> list[str]:
-    text = PROGRESS_FILE.read_text(encoding="utf-8").strip()
-    data = json.loads(text) if text else {}
+def get_last_activities(user_id: int, limit: int = 5) -> List[str]:
+    data = _read_progress_data()
     return [entry["activity"] for entry in data.get(str(user_id), [])][-limit:]
 
 def get_achievements(user_id: int) -> str:

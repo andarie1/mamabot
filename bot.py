@@ -12,7 +12,7 @@ bot = Bot(
 dp = Dispatcher()
 
 from handlers import (
-    start, helper, education, early,
+    start, helper, education, newborn,
     pre_school, materials, pre_kids,
     progress, contact
 )
@@ -21,7 +21,7 @@ dp.include_routers(
     start.router,
     helper.router,
     education.router,
-    early.router,
+    newborn.router,
     pre_kids.router,
     pre_school.router,
     materials.router,

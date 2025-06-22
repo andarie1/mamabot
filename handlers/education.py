@@ -5,7 +5,7 @@ from services.progress_report import generate_progress_report
 
 router = Router()
 
-@router.message(lambda msg: msg.text == "📋 Обучение")
+@router.message(lambda msg: msg.text == "📚 Обучение")
 async def show_education_menu(message: types.Message):
     keyboard = ReplyKeyboardMarkup(
         keyboard=[
