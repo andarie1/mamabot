@@ -4,17 +4,17 @@ from datetime import datetime
 
 PROGRESS_FILE = Path("data/progress.json")
 
-# Инициализация если нет файла
 if not PROGRESS_FILE.exists():
+    PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
     PROGRESS_FILE.write_text(json.dumps({}, indent=2), encoding="utf-8")
 
 def update_progress(user_id: int, activity: str) -> None:
-    text = PROGRESS_FILE.read_text(encoding="utf-8").strip()
+    text = PROGRESS_FILE.read_text(encoding="utf-8").strip() if PROGRESS_FILE.exists() else ""
 
     if not text or not text.startswith("{"):
-        text = "{}"
-
-    data = json.loads(text)
+        data = {}
+    else:
+        data = json.loads(text)
 
     now = datetime.now().isoformat(timespec='seconds')
 
@@ -26,12 +26,13 @@ def update_progress(user_id: int, activity: str) -> None:
     PROGRESS_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def get_progress(user_id: int) -> list[dict]:
-    data = json.loads(PROGRESS_FILE.read_text(encoding="utf-8"))
+    text = PROGRESS_FILE.read_text(encoding="utf-8").strip()
+    data = json.loads(text) if text else {}
     return data.get(str(user_id), [])
 
-# чтобы не повторял предыдущие задания
 def get_last_activities(user_id: int, limit: int = 5) -> list[str]:
-    data = json.loads(PROGRESS_FILE.read_text(encoding="utf-8"))
+    text = PROGRESS_FILE.read_text(encoding="utf-8").strip()
+    data = json.loads(text) if text else {}
     return [entry["activity"] for entry in data.get(str(user_id), [])][-limit:]
 
 def get_achievements(user_id: int) -> str:
@@ -43,4 +44,3 @@ def get_achievements(user_id: int) -> str:
     elif lesson_count >= 1:
         return "✨ Первый шаг сделан! Гордимся тобой!"
     return ""
-

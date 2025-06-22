@@ -13,7 +13,7 @@ dp = Dispatcher()
 
 from handlers import (
     start, helper, education, early,
-    pre_school, materials, gifts,
+    pre_school, materials, pre_kids,
     progress, contact
 )
 
@@ -22,9 +22,9 @@ dp.include_routers(
     helper.router,
     education.router,
     early.router,
+    pre_kids.router,
     pre_school.router,
     materials.router,
-    gifts.router,
     progress.router,
     contact.router
 )
