@@ -6,19 +6,26 @@ from pathlib import Path
 import json
 from datetime import datetime
 
-# Регистрируем шрифт с поддержкой кириллицы
+# Регистрируем кириллический шрифт
 FONT_PATH = Path("fonts/DejaVuSans.ttf")
 pdfmetrics.registerFont(TTFont("DejaVu", str(FONT_PATH)))
 
 def generate_progress_report(user_id: int, username: str) -> str:
     progress_path = Path("data/progress.json")
-    output_path = Path(f"assets/pdf/{user_id}_report.pdf")
+    output_path = Path(f"assets/pdf/{user_id}_progress_report.pdf")
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    if not progress_path.exists():
+    if not progress_path.exists() or not progress_path.read_text(encoding="utf-8").strip():
         return None
 
-    progress = json.loads(progress_path.read_text(encoding="utf-8")).get(str(user_id), [])
+    try:
+        progress = json.loads(progress_path.read_text(encoding="utf-8").strip())
+    except json.JSONDecodeError:
+        return None
+
+    user_progress = progress.get(str(user_id), [])
+    if not user_progress:
+        return None
 
     c = canvas.Canvas(str(output_path), pagesize=A4)
     c.setFont("DejaVu", 16)
@@ -26,10 +33,15 @@ def generate_progress_report(user_id: int, username: str) -> str:
     c.setFont("DejaVu", 12)
 
     y = 770
-    for i, item in enumerate(progress[-10:], 1):
+    for i, item in enumerate(user_progress[-10:], 1):
         c.drawString(100, y, f"{i}. {item['activity']} — {item['timestamp']}")
         y -= 25
+        if y < 100:
+            c.showPage()
+            c.setFont("DejaVu", 12)
+            y = 800
 
+    c.setFont("DejaVu", 10)
     c.drawString(100, y - 20, f"Дата отчёта: {datetime.now().strftime('%d.%m.%Y')}")
     c.save()
     return str(output_path)

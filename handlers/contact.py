@@ -3,7 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 router = Router()
 
-@router.message(lambda msg: msg.text == "📞 Связаться с нами")
+@router.message(lambda msg: msg.text == "📞 Помощь и связь")
 async def show_contact_menu(message: types.Message):
     keyboard = ReplyKeyboardMarkup(
         keyboard=[
@@ -13,18 +13,23 @@ async def show_contact_menu(message: types.Message):
         ],
         resize_keyboard=True
     )
-    await message.answer("📢 Мы всегда на связи! Выберите, чем можем помочь:", reply_markup=keyboard)
-
+    await message.answer(
+        "📢 Мы всегда на связи!\n"
+        "Задайте вопрос или предложите тему для новых материалов 👇",
+        reply_markup=keyboard
+    )
 
 @router.message(lambda msg: msg.text == "💬 Задать вопрос")
 async def ask_question_handler(message: types.Message):
-    await message.answer("💬 Напишите ваш вопрос, и наша команда ответит как можно скорее!")
-
+    await message.answer(
+        "💬 Напишите свой вопрос сюда — мы постараемся ответить как можно скорее!"
+    )
 
 @router.message(lambda msg: msg.text == "💡 Предложить тему")
 async def suggest_topic_handler(message: types.Message):
-    await message.answer("💡 У вас есть идея? Напишите её здесь, и мы обязательно рассмотрим!")
-
+    await message.answer(
+        "💡 Напишите, какую тему, марафон или чек-лист вы хотели бы увидеть — нам важно ваше мнение!"
+    )
 
 @router.message(lambda msg: msg.text == "🔙 Назад в главное меню")
 async def go_back_to_main(message: types.Message):

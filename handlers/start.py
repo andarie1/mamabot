@@ -8,36 +8,38 @@ router = Router()
 async def start_handler(message: types.Message):
     keyboard = ReplyKeyboardMarkup(
         keyboard=[
-            [KeyboardButton(text="🌟 Мой помощник")],
-            [KeyboardButton(text="📚 Обучение")],
-            [KeyboardButton(text="🍼 0–2 года"), KeyboardButton(text="👶 2–4 года")],
-            [KeyboardButton(text="🧒 4–6 лет")],
-            [KeyboardButton(text="🎁 Полезности и материалы")],
-            [KeyboardButton(text="📈 Мой прогресс"), KeyboardButton(text="📞 Связаться с нами")]
+            [KeyboardButton(text="📅 День с Тимми")],
+            [KeyboardButton(text="📚 Обучение"), KeyboardButton(text="📖 Советы от профи")],
+            [KeyboardButton(text="🚀 Марафоны и интенсивы"), KeyboardButton(text="📚 Библиотека PDF")],
+            [KeyboardButton(text="📈 Мой прогресс"), KeyboardButton(text="📞 Помощь и связь")],
+            [KeyboardButton(text="🔖 Недавно просмотренные")]
         ],
         resize_keyboard=True
     )
-
     await message.answer(
-        "Добро пожаловать, мама! 🧸 Я — Тимми. Выбирай, с чего начнём 👇",
+        "Добро пожаловать в мир Тимми! 🧸\n"
+        "Я помогу тебе развивать малыша и сделаю это весело и полезно.\n"
+        "Выбирай раздел 👇",
         reply_markup=keyboard
     )
 
-@router.message(lambda msg: msg.text == "🎓 Урок на сегодня")
-async def lesson_handler(message: types.Message):
-    from services.gpt_lesson_generator import generate_ai_lesson
-    from services.progress_tracker import update_progress
-    from services.voice import generate_voice
-    from services.pdf_generator import generate_lesson_pdf
-    from aiogram.types import FSInputFile
+@router.message(lambda msg: msg.text.isdigit())
+async def save_user_age_handler(message: types.Message):
+    from services.user_profile import save_user_age
+    age = int(message.text)
+    if 0 <= age <= 6:
+        save_user_age(message.from_user.id, age)
+        await message.answer(f"✅ Возраст сохранён: {age} лет. Теперь задания будут адаптированы! 🧠")
+    else:
+        await message.answer("❌ Введите целое число от 0 до 6 — в годах. Например: 3")
 
-    age = 5
-    level = "начальный"
-    task = generate_ai_lesson(user_id=message.from_user.id, age=age, level=level)
+@router.message(lambda msg: msg.text == "📅 День с Тимми")
+async def day_with_timmy_handler(message: types.Message):
+    await message.answer("⏳ Генерирую уникальный набор: задание, ритуал и совет…")
+    # Здесь будет вызов генерации через AI
+    # Временно - заглушка:
+    await message.answer("📅 День с Тимми готов! 🧸\n\n"
+                         "📚 Задание: Найди предмет красного цвета.\n"
+                         "💤 Ритуал: Перед сном обними игрушку и скажи: «Спасибо, день!»\n"
+                         "🧠 Совет: Объясняй всё спокойным голосом — малыш чувствует твои эмоции.")
 
-    pdf_path = generate_lesson_pdf(message.from_user.first_name, task, f"{message.from_user.id}_lesson.pdf")
-    voice_path = generate_voice(task, f"{message.from_user.id}_lesson.mp3")
-
-    await message.answer_document(FSInputFile(pdf_path), caption="📄 Твоё AI-задание от Тимми готово!")
-    await message.answer_voice(FSInputFile(voice_path), caption="🎧 А вот голос Тимми — повторяй за ним!")
-    update_progress(message.from_user.id, "AI-урок")
