@@ -1,32 +1,18 @@
 from aiogram import Router, types
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from handlers.start import start_handler
-from services.progress_tracker import get_progress
+from services.progress_tracker import get_last_activities
 
 router = Router()
 
 @router.message(lambda msg: msg.text == "🔖 Недавно просмотренные")
-async def show_recent_menu(message: types.Message):
-    keyboard = ReplyKeyboardMarkup(
-        keyboard=[
-            [KeyboardButton(text="🔙 Назад в главное меню")]
-        ],
-        resize_keyboard=True
-    )
-    progress = get_progress(message.from_user.id)
-    if not progress:
-        await message.answer(
-            "🔖 У тебя пока нет недавно просмотренных материалов.\n"
-            "Начни с задания или совета, и они появятся здесь!",
-            reply_markup=keyboard
-        )
+async def recent_views_handler(message: types.Message):
+    last_activities = get_last_activities(message.from_user.id, limit=3)
+    if not last_activities:
+        await message.answer("🔖 У тебя пока нет недавних просмотров. Начни с занятий или советов!")
     else:
-        recent = progress[-3:]
-        text = "\n".join([f"— {entry['activity']} ({entry['timestamp']})" for entry in recent])
-        await message.answer(
-            f"🔖 Последние активности:\n{text}",
-            reply_markup=keyboard
-        )
+        text = "🔖 <b>Твои последние активности:</b>\n\n"
+        text += "\n".join(f"• {activity}" for activity in last_activities)
+        await message.answer(text, parse_mode="HTML")
 
 @router.message(lambda msg: msg.text == "🔙 Назад в главное меню")
 async def go_back_to_main(message: types.Message):

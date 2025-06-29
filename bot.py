@@ -6,14 +6,15 @@ from aiogram.enums import ParseMode
 from config import BOT_TOKEN
 from aiogram.client.default import DefaultBotProperties
 
-# Настраиваем логирование
+# Создаём папку для логов до инициализации логгера
+os.makedirs("logs", exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     handlers=[
-        logging.FileHandler("logs/bot.log"),
-        logging.StreamHandler()
-    ]
+        logging.FileHandler("logs/bot.log", encoding="utf-8"),
+    ],
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 )
 
 bot = Bot(
@@ -24,7 +25,7 @@ bot = Bot(
 dp = Dispatcher()
 
 from handlers import (
-    start, helper, education,
+    start, education,
     day_with_timmy, library,
     marathons, tips,
     progress, contact
@@ -32,7 +33,6 @@ from handlers import (
 
 dp.include_routers(
     start.router,
-    helper.router,
     education.router,
     day_with_timmy.router,
     library.router,
@@ -42,11 +42,9 @@ dp.include_routers(
     contact.router
 )
 
-# Создаём необходимые папки для проекта
-os.makedirs("logs", exist_ok=True)
 os.makedirs("assets/pdf", exist_ok=True)
 os.makedirs("assets/voices", exist_ok=True)
-print("📂 Папки для логов, PDF и аудио подготовлены: logs/, assets/pdf, assets/voices.")
+logging.info("📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.")
 
 async def main():
     logging.info("🤖 Бот запущен и готов к работе!")
@@ -54,6 +52,9 @@ async def main():
         await dp.start_polling(bot)
     except Exception as e:
         logging.exception(f"Критическая ошибка при работе бота: {e}")
+        # Важно: сразу сбрасываем логи на диск
+        for handler in logging.getLogger().handlers:
+            handler.flush()
 
 if __name__ == "__main__":
     asyncio.run(main())

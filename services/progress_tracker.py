@@ -29,12 +29,20 @@ def update_progress(user_id: int, activity: str) -> None:
     PROGRESS_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def get_progress(user_id: int) -> List[Dict[str, str]]:
-    """Возвращает историю прогресса пользователя."""
+    """Возвращает полную историю прогресса пользователя."""
     data = _read_progress_data()
     return data.get(str(user_id), [])
 
-def get_last_activities(user_id: int, limit: int = 5) -> List[str]:
-    """Возвращает последние действия пользователя (по умолчанию 5)."""
+def get_formatted_progress(user_id: int, limit: int = 10) -> list[str]:
+    """Возвращает последние N действий пользователя в виде списка строк для отчёта."""
+    progress = get_progress(user_id)
+    return [
+        f"{i + 1}. {p['activity']} — {p['timestamp']}"
+        for i, p in enumerate(progress[-limit:])
+    ]
+
+def get_last_activities(user_id: int, limit: int = 3) -> List[str]:
+    """Возвращает последние N действий для отображения в разделе 'Недавно просмотренные'."""
     data = _read_progress_data()
     return [entry["activity"] for entry in data.get(str(user_id), [])][-limit:]
 

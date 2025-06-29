@@ -4,7 +4,7 @@ from handlers.start import start_handler
 
 router = Router()
 
-@router.message(lambda msg: msg.text == "📚 Библиотека PDF")
+@router.message(lambda msg: msg.text == "📖 Библиотека PDF")
 async def show_library_menu(message: types.Message):
     keyboard = ReplyKeyboardMarkup(
         keyboard=[
@@ -13,7 +13,7 @@ async def show_library_menu(message: types.Message):
         ],
         resize_keyboard=True
     )
-    await message.answer("📚 Добро пожаловать в библиотеку Тимми!\n\nВыберите раздел:", reply_markup=keyboard)
+    await message.answer("📖 Добро пожаловать в библиотеку Тимми!\n\nВыберите раздел:", reply_markup=keyboard)
 
 @router.message(lambda msg: msg.text == "📋 Чек-листы")
 async def checklist_handler(message: types.Message):

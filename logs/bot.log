@@ -1,0 +1,65 @@
+2025-06-28 13:10:47,764 [INFO] aiogram.dispatcher: Start polling
+2025-06-28 13:12:04,660 [INFO] aiogram.dispatcher: Polling stopped
+2025-06-28 13:12:18,076 [INFO] aiogram.dispatcher: Start polling
+2025-06-28 13:12:48,897 [INFO] aiogram.dispatcher: Polling stopped
+2025-06-28 13:13:58,248 [INFO] root: 📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.
+2025-06-28 13:13:58,249 [INFO] root: 🤖 Бот запущен и готов к работе!
+2025-06-28 13:13:58,249 [INFO] aiogram.dispatcher: Start polling
+2025-06-28 13:13:58,423 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-06-28 13:14:38,568 [INFO] aiogram.dispatcher: Polling stopped
+2025-06-28 13:14:38,648 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2685)
+2025-06-28 13:14:38,648 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-06-28 13:14:38,833 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-06-28 13:14:43,469 [INFO] root: 📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.
+2025-06-28 13:14:43,470 [INFO] root: 🤖 Бот запущен и готов к работе!
+2025-06-28 13:14:43,470 [INFO] aiogram.dispatcher: Start polling
+2025-06-28 13:14:43,647 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-06-28 13:14:55,323 [INFO] aiogram.dispatcher: Polling stopped
+2025-06-28 13:14:55,580 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-06-28 13:16:19,283 [INFO] root: 📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.
+2025-06-28 13:16:19,284 [INFO] root: 🤖 Бот запущен и готов к работе!
+2025-06-28 13:16:19,284 [INFO] aiogram.dispatcher: Start polling
+2025-06-28 13:16:19,473 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-06-28 13:17:34,373 [INFO] aiogram.dispatcher: Polling stopped
+2025-06-28 13:17:34,635 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-06-28 13:18:56,436 [INFO] root: 📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.
+2025-06-28 13:18:56,438 [INFO] root: 🤖 Бот запущен и готов к работе!
+2025-06-28 13:18:56,438 [INFO] aiogram.dispatcher: Start polling
+2025-06-28 13:18:56,618 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-06-28 13:19:27,182 [INFO] aiogram.event: Update id=653453678 is handled. Duration 187 ms by bot id=7660984376
+2025-06-28 13:19:34,815 [INFO] aiogram.event: Update id=653453679 is handled. Duration 171 ms by bot id=7660984376
+2025-06-28 13:19:43,935 [INFO] aiogram.event: Update id=653453680 is handled. Duration 77 ms by bot id=7660984376
+2025-06-28 13:19:47,268 [INFO] aiogram.event: Update id=653453681 is handled. Duration 92 ms by bot id=7660984376
+2025-06-28 13:19:48,683 [INFO] aiogram.event: Update id=653453682 is handled. Duration 92 ms by bot id=7660984376
+2025-06-28 13:19:52,590 [INFO] aiogram.event: Update id=653453683 is handled. Duration 78 ms by bot id=7660984376
+2025-06-28 13:20:00,134 [INFO] aiogram.event: Update id=653453684 is handled. Duration 78 ms by bot id=7660984376
+2025-06-28 13:20:04,115 [INFO] aiogram.event: Update id=653453685 is handled. Duration 77 ms by bot id=7660984376
+2025-06-28 13:20:08,169 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 13:20:08,304 [INFO] aiogram.event: Update id=653453686 is handled. Duration 2217 ms by bot id=7660984376
+2025-06-28 13:20:22,358 [INFO] aiogram.event: Update id=653453687 is handled. Duration 94 ms by bot id=7660984376
+2025-06-28 13:20:25,463 [INFO] aiogram.event: Update id=653453688 is handled. Duration 187 ms by bot id=7660984376
+2025-06-28 13:20:30,064 [INFO] aiogram.event: Update id=653453689 is handled. Duration 62 ms by bot id=7660984376
+2025-06-28 13:20:35,877 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 13:20:35,961 [INFO] aiogram.event: Update id=653453690 is handled. Duration 2046 ms by bot id=7660984376
+2025-06-28 13:20:45,925 [INFO] aiogram.event: Update id=653453691 is handled. Duration 125 ms by bot id=7660984376
+2025-06-28 13:20:59,944 [INFO] aiogram.event: Update id=653453692 is handled. Duration 108 ms by bot id=7660984376
+2025-06-28 13:23:01,220 [INFO] aiogram.event: Update id=653453693 is handled. Duration 187 ms by bot id=7660984376
+2025-06-28 13:23:05,326 [INFO] aiogram.event: Update id=653453694 is handled. Duration 78 ms by bot id=7660984376
+2025-06-28 13:23:18,163 [INFO] aiogram.event: Update id=653453695 is handled. Duration 141 ms by bot id=7660984376
+2025-06-28 13:23:22,702 [INFO] aiogram.event: Update id=653453696 is handled. Duration 108 ms by bot id=7660984376
+2025-06-28 13:23:34,548 [INFO] aiogram.event: Update id=653453697 is handled. Duration 78 ms by bot id=7660984376
+2025-06-28 13:23:37,450 [INFO] aiogram.event: Update id=653453698 is handled. Duration 125 ms by bot id=7660984376
+2025-06-28 13:23:40,594 [INFO] aiogram.event: Update id=653453699 is handled. Duration 94 ms by bot id=7660984376
+2025-06-28 13:25:38,072 [INFO] aiogram.event: Update id=653453700 is handled. Duration 171 ms by bot id=7660984376
+2025-06-28 13:25:42,903 [INFO] aiogram.event: Update id=653453701 is handled. Duration 94 ms by bot id=7660984376
+2025-06-28 13:25:50,002 [INFO] aiogram.event: Update id=653453702 is handled. Duration 93 ms by bot id=7660984376
+2025-06-28 13:25:53,899 [INFO] aiogram.event: Update id=653453703 is handled. Duration 94 ms by bot id=7660984376
+2025-06-28 13:26:13,685 [INFO] aiogram.event: Update id=653453704 is handled. Duration 233 ms by bot id=7660984376
+2025-06-28 13:26:15,566 [INFO] aiogram.event: Update id=653453705 is handled. Duration 171 ms by bot id=7660984376
+2025-06-28 13:26:20,502 [INFO] aiogram.event: Update id=653453706 is handled. Duration 125 ms by bot id=7660984376
+2025-06-28 13:26:30,185 [INFO] aiogram.event: Update id=653453707 is not handled. Duration 14 ms by bot id=7660984376
+2025-06-28 13:27:39,985 [INFO] aiogram.event: Update id=653453708 is handled. Duration 219 ms by bot id=7660984376
+2025-06-28 13:28:12,191 [INFO] aiogram.event: Update id=653453709 is handled. Duration 187 ms by bot id=7660984376
+2025-06-28 13:28:14,435 [INFO] aiogram.event: Update id=653453710 is not handled. Duration 14 ms by bot id=7660984376
+2025-06-28 13:30:43,581 [INFO] aiogram.dispatcher: Polling stopped
+2025-06-28 13:30:43,841 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'

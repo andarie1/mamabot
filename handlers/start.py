@@ -9,8 +9,8 @@ async def start_handler(message: types.Message):
     keyboard = ReplyKeyboardMarkup(
         keyboard=[
             [KeyboardButton(text="📅 День с Тимми")],
-            [KeyboardButton(text="📚 Обучение"), KeyboardButton(text="📖 Советы от профи")],
-            [KeyboardButton(text="🚀 Марафоны и интенсивы"), KeyboardButton(text="📚 Библиотека PDF")],
+            [KeyboardButton(text="📚 Обучение"), KeyboardButton(text="💡 Советы от профи")],
+            [KeyboardButton(text="🚀 Марафоны и интенсивы"), KeyboardButton(text="📖 Библиотека PDF")],
             [KeyboardButton(text="📈 Мой прогресс"), KeyboardButton(text="📞 Помощь и связь")],
             [KeyboardButton(text="🔖 Недавно просмотренные")]
         ],
