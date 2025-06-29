@@ -5,7 +5,7 @@ from services.ai_generator import generate_ai_lesson
 
 router = Router()
 
-@router.message(lambda msg: msg.text == "🗂 Полезные материалы")
+@router.message(lambda msg: msg.text == "💡 Советы от профи")
 async def show_materials_menu(message: types.Message):
     keyboard = ReplyKeyboardMarkup(
         keyboard=[

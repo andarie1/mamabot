@@ -54,6 +54,36 @@ def generate_ai_lesson(user_id: int, age: int = 5, level: str = "начальн�
 
     return response.choices[0].message.content
 
+from openai import OpenAI
+import logging
+from datetime import datetime
+from pathlib import Path
+
+client = OpenAI()
+
+def generate_expert_tip(user_id: int, expert: str) -> str:
+    """
+    Генерирует совет для родителя от специалиста (логопед, психолог, педиатр).
+    """
+    prompt = (
+        f"Ты — профессиональный {expert} с большим опытом работы с детьми до 6 лет. "
+        f"Напиши короткий, но полезный совет для мамы или папы, как помочь ребёнку развиваться, "
+        f"решать повседневные проблемы или укреплять эмоциональное здоровье. "
+        f"Не используй формат заданий или игр. Дай практическую рекомендацию простыми словами, "
+        f"объёмом 2-3 предложения."
+    )
+
+    logging.info(f"[{datetime.now().isoformat()}] Expert tip prompt: {prompt}")
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "system", "content": "Ты — заботливый и опытный детский специалист."},
+            {"role": "user", "content": prompt},
+        ],
+        temperature=0.7,
+    )
+    return response.choices[0].message.content.strip()
+
 def log_prompt(user_id: int, topic: str, prompt: str):
     """Записывает все промпты в лог-файл для анализа."""
     log_path = "logs/prompts.txt"
