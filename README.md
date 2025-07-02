@@ -19,3 +19,11 @@ AI-бот для мам и малышей (0-6 лет) с ритуалами, з
    ```bash
    git clone https://github.com/your-username/timmy-bot.git
    cd timmy-bot
+
+
+______________________________________________________________________
+Docker launch: ~bash~
+
+docker build -t mamabot .
+docker run -d --name mamabot_container mamabot
+docker run -d --name mamabot_container -e BOT_TOKEN="ваш_токен" mamabot

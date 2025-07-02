@@ -1,8 +1,10 @@
 import os
+import logging
+from datetime import datetime
+from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
 from services.progress_tracker import get_last_activities
-from datetime import datetime
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -12,10 +14,11 @@ if not OPENAI_API_KEY:
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
+
 def generate_ai_lesson(user_id: int, age: int = 5, level: str = "начальный", topic: str = "общие") -> str:
     """
     Генерация AI-задания по теме для указанного возраста.
-    Topic: "английский", "логика", "арт", "слушаем", "игры", "общие", "ритуал", "совет".
+    Доступные темы: "английский", "логика", "арт", "слушаем", "игры", "общие", "ритуал", "совет".
     """
     previous = get_last_activities(user_id)
     exclude = ", ".join(previous) if previous else "ничего ещё не делал"
@@ -42,47 +45,53 @@ def generate_ai_lesson(user_id: int, age: int = 5, level: str = "начальн�
         f"Не включай упражнения, требующие аудио или видео."
     )
 
-    # --- Логирование промпта для отладки ---
     log_prompt(user_id, topic, prompt)
 
-    # --- Запрос к OpenAI ---
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7,
     )
 
-    return response.choices[0].message.content
+    return response.choices[0].message.content.strip()
 
-from openai import OpenAI
-import logging
-from datetime import datetime
-from pathlib import Path
 
-client = OpenAI()
+from services.advice_tracker import get_today_advices, record_advice
 
 def generate_expert_tip(user_id: int, expert: str) -> str:
     """
-    Генерирует совет для родителя от специалиста (логопед, психолог, педиатр).
+    Генерирует уникальный совет для родителя от специалиста (логопед, психолог, педиатр),
+    с проверкой повторов и лимитом до 3 попыток на генерацию.
     """
-    prompt = (
-        f"Ты — профессиональный {expert} с большим опытом работы с детьми до 6 лет. "
-        f"Напиши короткий, но полезный совет для мамы или папы, как помочь ребёнку развиваться, "
-        f"решать повседневные проблемы или укреплять эмоциональное здоровье. "
-        f"Не используй формат заданий или игр. Дай практическую рекомендацию простыми словами, "
-        f"объёмом 2-3 предложения."
-    )
+    topic = expert.lower()
+    today_advices = get_today_advices(user_id, topic)
 
-    logging.info(f"[{datetime.now().isoformat()}] Expert tip prompt: {prompt}")
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "Ты — заботливый и опытный детский специалист."},
-            {"role": "user", "content": prompt},
-        ],
-        temperature=0.7,
-    )
-    return response.choices[0].message.content.strip()
+    if len(today_advices) >= 3:
+        return "❗ Ты уже получил максимальное количество советов на сегодня по этой рубрике."
+
+    for attempt in range(3):  # максимум 3 попытки
+        prompt = (
+            f"Ты — профессиональный {expert} с большим опытом работы с детьми до 6 лет. "
+            f"Напиши короткий, но полезный совет для родителей. "
+            f"Не используй формат заданий или игр. Дай практическую рекомендацию простыми словами, "
+            f"объёмом 2-3 предложения."
+        )
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "Ты — заботливый и опытный детский специалист."},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.7,
+        )
+        advice = response.choices[0].message.content.strip()
+
+        if advice not in today_advices:
+            record_advice(user_id, topic, advice)
+            return advice
+
+    return "❗ Не удалось сгенерировать новый уникальный совет. Попробуй завтра!"
+
 
 def log_prompt(user_id: int, topic: str, prompt: str):
     """Записывает все промпты в лог-файл для анализа."""

@@ -1,73 +1,41 @@
-from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import A4
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib.utils import ImageReader
 from pathlib import Path
-from datetime import date
 
-# Регистрируем кириллический шрифт
-FONT_PATH = Path("fonts/DejaVuSans.ttf")
-pdfmetrics.registerFont(TTFont("DejaVu", str(FONT_PATH)))
+# Регистрируем шрифты один раз при импорте
+pdfmetrics.registerFont(TTFont("Comfortaa", "fonts/Comfortaa-Bold.ttf"))
+pdfmetrics.registerFont(TTFont("DejaVu", "fonts/DejaVuSans.ttf"))
 
-def generate_day_pdf(username: str, lesson: str, ritual: str, tip: str, filename: str = "day_with_timmy.pdf") -> str:
-    """
-    Генерирует PDF с тремя частями: Задание, Ритуал, Совет.
-    """
-    output_path = Path("assets/pdf") / filename
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    c = canvas.Canvas(str(output_path), pagesize=A4)
+def generate_day_pdf(username: str, content: str, filename: str = "day_with_timmy.pdf") -> str:
+    path = Path("assets/pdf") / filename
+    path.parent.mkdir(parents=True, exist_ok=True)
+    c = canvas.Canvas(str(path), pagesize=A4)
     width, height = A4
 
-    # Заголовок
-    c.setFont("DejaVu", 16)
-    c.drawString(100, height - 50, "📅 День с Тимми — твой комплект заданий!")
+    # Вставляем фоновую картинку
+    bg_path = Path("assets/backgrounds/background_pdf.png")
+    if bg_path.exists():
+        c.drawImage(str(bg_path), 0, 0, width=width, height=height, mask='auto')
 
-    # Дата и приветствие
-    c.setFont("DejaVu", 12)
-    c.drawString(100, height - 80, f"Привет, {username}! Сегодня {date.today().strftime('%d.%m.%Y')}:")
+    # Вставляем логотип в правый верхний угол
+    logo_path = Path("assets/backgrounds/timmy_logo.png")
+    if logo_path.exists():
+        c.drawImage(str(logo_path), width-120, height-120, width=100, height=100, mask='auto')
 
-    # Задание
-    y = height - 120
+    # Заголовок шрифтом Comfortaa
+    c.setFont("Comfortaa", 28)
+    c.setFillColorRGB(0, 0, 0)
+    c.drawCentredString(width/2, height-150, f"День с Тимми для {username}")
+
+    # Основной текст шрифтом DejaVu
     c.setFont("DejaVu", 14)
-    c.drawString(100, y, "📚 Задание:")
-    y -= 20
-    c.setFont("DejaVu", 12)
-    for line in lesson.split('\n'):
-        c.drawString(100, y, line)
-        y -= 18
-        if y < 100:
-            c.showPage()
-            c.setFont("DejaVu", 12)
-            y = height - 50
-
-    # Ритуал
-    y -= 20
-    c.setFont("DejaVu", 14)
-    c.drawString(100, y, "💤 Ритуал:")
-    y -= 20
-    c.setFont("DejaVu", 12)
-    for line in ritual.split('\n'):
-        c.drawString(100, y, line)
-        y -= 18
-        if y < 100:
-            c.showPage()
-            c.setFont("DejaVu", 12)
-            y = height - 50
-
-    # Совет
-    y -= 20
-    c.setFont("DejaVu", 14)
-    c.drawString(100, y, "🧠 Совет:")
-    y -= 20
-    c.setFont("DejaVu", 12)
-    for line in tip.split('\n'):
-        c.drawString(100, y, line)
-        y -= 18
-        if y < 100:
-            c.showPage()
-            c.setFont("DejaVu", 12)
-            y = height - 50
+    text = c.beginText(50, height-200)
+    for line in content.split('\n'):
+        text.textLine(line)
+    c.drawText(text)
 
     c.save()
-    return str(output_path)
+    return str(path)

@@ -28,7 +28,7 @@ from handlers import (
     start, education,
     day_with_timmy, library,
     marathons, tips,
-    progress, contact
+    progress, contact, admin
 )
 
 dp.include_routers(
@@ -39,7 +39,8 @@ dp.include_routers(
     marathons.router,
     tips.router,
     progress.router,
-    contact.router
+    contact.router,
+    admin.router,
 )
 
 os.makedirs("assets/pdf", exist_ok=True)
