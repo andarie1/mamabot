@@ -3,13 +3,31 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, FSInputFile
 
 from services.ai_generator import generate_ai_lesson
 from services.progress_report import generate_progress_report
+from services.user_profile import get_trial_status
 
 from handlers.start import start_handler
 
 router = Router()
 
+async def check_trial_and_inform(message: types.Message) -> bool:
+    """Проверка пробного периода перед доступом к разделу"""
+    status = get_trial_status(message.from_user.id)
+    if status == "almost_over":
+        await message.answer(
+            "⏳ Ваш пробный период заканчивается завтра! Чтобы и дальше получать задания, откройте подписку 💳."
+        )
+    if status == "expired":
+        await message.answer(
+            "🚫 Ваш пробный период завершён. Доступ к обучению закрыт. Чтобы продолжить — активируйте подписку."
+        )
+        return False
+    return True
+
 @router.message(lambda msg: msg.text == "📚 Обучение")
 async def show_education_menu(message: types.Message):
+    if not await check_trial_and_inform(message):
+        return
+
     keyboard = ReplyKeyboardMarkup(
         keyboard=[
             [KeyboardButton(text="🔢 Выбрать возраст ребёнка")],
@@ -40,6 +58,9 @@ async def confirm_user_age_buttons(message: types.Message):
 
 @router.message(lambda msg: msg.text == "📷 Развивающие уроки (AI)")
 async def ai_lessons_handler(message: types.Message):
+    if not await check_trial_and_inform(message):
+        return
+
     await message.answer("⏳ Генерирую AI-задание... Подожди немного, Тимми работает 🧠")
     try:
         task = generate_ai_lesson(user_id=message.from_user.id)
