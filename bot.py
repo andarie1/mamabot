@@ -7,78 +7,68 @@ from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 from dotenv import load_dotenv
 
-# === Загрузка .env ===
+# === Загрузка переменных окружения ===
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-# === Инициализация логов и директорий ===
-os.makedirs("logs", exist_ok=True)
+if not BOT_TOKEN:
+    raise ValueError("❌ BOT_TOKEN не найден в .env файле!")
 
+# === Логирование: только главное ===
+os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
         logging.FileHandler("logs/bot.log", encoding="utf-8"),
-    ],
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+        logging.StreamHandler()
+    ]
 )
+logger = logging.getLogger(__name__)
 
-# === Инициализация бота ===
-bot = Bot(
-    token=BOT_TOKEN,
-    default=DefaultBotProperties(parse_mode=ParseMode.HTML)
-)
+# === Инициализация бота и диспетчера ===
+bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
-# === Инициализация базы данных ===
-DB_PATH = "db/your_database.db"
-
+# === Проверка базы данных ===
+DB_PATH = "db/mamabot_db.db"
 if not os.path.exists(DB_PATH):
-    logging.error(f"Файл базы данных не найден: {DB_PATH}")
+    logger.error(f"❌ Файл базы данных не найден: {DB_PATH}")
     raise FileNotFoundError(f"Файл базы данных не найден: {DB_PATH}")
 
 try:
-    conn = sqlite3.connect(DB_PATH)
-    logging.info("📚 Успешное подключение к базе данных!")
-    conn.close()
-except sqlite3.Error as e:
-    logging.exception(f"Ошибка подключения к базе данных: {e}")
-    raise
+    sqlite3.connect(DB_PATH).close()
+    logger.info("✅ База данных подключена.")
+except:
+    raise RuntimeError("❌ Ошибка при подключении к базе данных.")
+
+# === Подготовка папок ===
+os.makedirs("pdfs/checklists", exist_ok=True)
+os.makedirs("pdfs/guides", exist_ok=True)
+os.makedirs("assets/voices", exist_ok=True)
+logger.info("📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices")
 
 # === Подключение роутеров ===
 from handlers import (
-    start, education,
-    day_with_timmy, library,
-    marathons, tips,
+    start, education, day_with_timmy,
+    library, marathons, tips,
     progress, contact, admin
 )
 
 dp.include_routers(
-    start.router,
-    education.router,
-    day_with_timmy.router,
-    library.router,
-    marathons.router,
-    tips.router,
-    progress.router,
-    contact.router,
-    admin.router,
+    start.router, education.router, day_with_timmy.router,
+    library.router, marathons.router, tips.router,
+    progress.router, contact.router, admin.router,
 )
 
-# === Подготовка папок для материалов ===
-os.makedirs("assets/pdf", exist_ok=True)
-os.makedirs("assets/voices", exist_ok=True)
-logging.info("📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.")
-
-# === Основной цикл бота ===
+# === Основной цикл ===
 async def main():
-    logging.info("🤖 Бот запущен и готов к работе!")
-    try:
-        await dp.start_polling(bot)
-    except Exception as e:
-        logging.exception(f"Критическая ошибка при работе бота: {e}")
-        # Обязательно сбрасываем логи на диск
-        for handler in logging.getLogger().handlers:
-            handler.flush()
+    logger.info("🚀 Бот запущен и готов к работе!")
+    await dp.start_polling(bot)
+    logger.info("🧹 Поллинг завершён. Бот остановлен.")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except (KeyboardInterrupt, SystemExit):
+        logger.info("🛑 Бот остановлен вручную.")

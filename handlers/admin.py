@@ -4,46 +4,48 @@ from pathlib import Path
 import json
 import os
 import logging
+from dotenv import load_dotenv
 
 router = Router()
 
-ADMIN_ID = int(os.getenv("ADMIN_ID", "5566778899"))
+# === Загрузка переменных окружения ===
+load_dotenv()
+admin_ids_str = os.getenv("ADMIN_IDS", "")
+ADMIN_IDS = [int(uid.strip()) for uid in admin_ids_str.split(",") if uid.strip().isdigit()]
 
 @router.message(Command("admin"))
 async def admin_report(message: types.Message):
     user_id = message.from_user.id
 
-    # Защита: команда только для владельца
-    if user_id != ADMIN_ID:
+    # Защита: команда только для админов
+    if user_id not in ADMIN_IDS:
         await message.answer("❌ У вас нет прав для этой команды.")
         return
 
-    report_lines = []
-
     try:
-        # Загрузка данных пользователей
+        # === Загрузка пользователей ===
         users_path = Path("data/users.json")
         users_count = 0
         if users_path.exists():
             users_data = json.loads(users_path.read_text(encoding="utf-8").strip() or "{}")
             users_count = len(users_data)
 
-        # Загрузка данных прогресса
+        # === Загрузка прогресса ===
         progress_path = Path("data/progress.json")
         total_activities = 0
         last_activity = "Нет данных"
         if progress_path.exists():
             progress_data = json.loads(progress_path.read_text(encoding="utf-8").strip() or "{}")
             total_activities = sum(len(acts) for acts in progress_data.values())
-            # Поиск последней активности по всем пользователям
             all_activities = [
                 activity["timestamp"]
-                for activities in progress_data.values() for activity in activities
+                for activities in progress_data.values()
+                for activity in activities
             ]
             if all_activities:
                 last_activity = max(all_activities)
 
-        # Загрузка последних вопросов
+        # === Загрузка последних вопросов ===
         questions_path = Path("data/questions.json")
         last_questions = []
         if questions_path.exists():
@@ -54,7 +56,7 @@ async def admin_report(message: types.Message):
                     last_questions.append(f"{username}: {q['question']}")
             last_questions = last_questions[-5:]
 
-        # Составляем отчёт
+        # === Формирование отчёта ===
         report = (
             f"📊 <b>Отчёт администратора</b>\n\n"
             f"👥 Пользователей: <b>{users_count}</b>\n"
@@ -69,5 +71,5 @@ async def admin_report(message: types.Message):
         await message.answer(report, parse_mode="HTML")
 
     except Exception as e:
-        logging.exception("Ошибка при формировании отчёта администратора")
+        logging.exception("❌ Ошибка при формировании отчёта администратора")
         await message.answer("❌ Произошла ошибка при формировании отчёта. Подробности смотри в логах.")

@@ -27,25 +27,19 @@ INSERT INTO library (title, description, file_path, age_range) VALUES
     "Что бы я не купила для новорождённого, имея опыт с первым ребёнком",
     "Lucruri inutile pe care nu merită să le cumpărați pentru un nou-născut.",
     "pdfs/guides/things_not_to_buy_guide_ru_ro.pdf",
-    "0–6 месяцев"
-),
-(
-    "Аптечка для новорождённого",
-    "Trusa medicală esențială pentru îngrijirea și siguranța nou-născutului, inclusiv recomandări pentru îngrijirea buricului.",
-    "pdfs/checklists/preparing_babyroom_cl_ru_ro.pdf",
-    "0–6 месяцев"
+    "0–2 года"
 ),
 (
     "Чек-лист по подготовке комнаты для новорождённого",
     "Lista completă cu recomandări despre organizarea camerei.",
     "pdfs/checklists/preparing_babyroom_cl_ru_ro.pdf",
-    "0–6 месяцев"
+    "0–2 года"
 ),
 (
     "Гид по грудному вскармливанию",
     "Ghid detaliat despre alăptare: semnele atașării corecte.",
     "pdfs/guides/breastfeeding_guide_ru_ro.pdf",
-    "0–6 месяцев"
+    "0–2 года"
 );
 """)
 

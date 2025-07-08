@@ -1,10 +1,3 @@
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.lib.pagesizes import A4
-from reportlab.pdfgen import canvas
-from pathlib import Path
-from datetime import date
-
 from pathlib import Path
 from datetime import date
 from reportlab.lib.pagesizes import A4

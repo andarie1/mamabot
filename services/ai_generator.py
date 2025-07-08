@@ -5,6 +5,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
 from services.progress_tracker import get_last_activities
+from services.advice_tracker import get_today_advices, record_advice
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -15,11 +16,20 @@ if not OPENAI_API_KEY:
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 
-def generate_ai_lesson(user_id: int, age: int = 5, level: str = "начальный", topic: str = "общие") -> str:
+def generate_ai_lesson(user_id: int, age_range: str = "2–4 года", level: str = "начальный", topic: str = "общие") -> str:
     """
-    Генерация AI-задания по теме для указанного возраста.
-    Доступные темы: "английский", "логика", "арт", "слушаем", "игры", "общие", "ритуал", "совет".
+    Генерация AI-задания по теме для указанного возрастного диапазона.
+    Темы: "английский", "логика", "арт", "слушаем", "игры", "общие", "ритуал", "совет".
     """
+
+    # Примерное представление возраста в цифре
+    age_map = {
+        "0–2 года": 1,
+        "2–4 года": 3,
+        "4–6 лет": 5
+    }
+    age = age_map.get(age_range, 3)  # значение по умолчанию — 3 года
+
     previous = get_last_activities(user_id)
     exclude = ", ".join(previous) if previous else "ничего ещё не делал"
 
@@ -37,12 +47,12 @@ def generate_ai_lesson(user_id: int, age: int = 5, level: str = "начальн�
     topic_text = topic_instructions.get(topic, topic_instructions["общие"])
 
     prompt = (
-        f"Ты — Тимми, AI-ассистент. Ребёнку {age} лет, уровень {level}.\n"
+        f"Ты — Тимми, AI-ассистент. Возраст ребёнка: {age_range} (примерно {age} лет), уровень: {level}.\n"
         f"{topic_text}\n"
         f"Ребёнок уже делал: {exclude} — не повторяй.\n"
         f"Отвечай дружелюбно, лаконично, избегай сложных слов.\n"
-        f"Генерируй только задания, которые можно выполнить дома, без спецоборудования.\n"
-        f"Не включай упражнения, требующие аудио или видео."
+        f"Задания должны быть выполнимы дома, без оборудования.\n"
+        f"Не включай упражнения с аудио или видео."
     )
 
     log_prompt(user_id, topic, prompt)
@@ -52,11 +62,7 @@ def generate_ai_lesson(user_id: int, age: int = 5, level: str = "начальн�
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7,
     )
-
     return response.choices[0].message.content.strip()
-
-
-from services.advice_tracker import get_today_advices, record_advice
 
 def generate_expert_tip(user_id: int, expert: str) -> str:
     """

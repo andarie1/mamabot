@@ -3,11 +3,13 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, FSInputFile
 
 from services.ai_generator import generate_ai_lesson
 from services.progress_report import generate_progress_report
-from services.user_profile import get_trial_status
+from services.user_profile import get_trial_status, get_user_age_range, save_user_age_range
 
 from handlers.start import start_handler
 
 router = Router()
+
+AGE_CHOICES = ["0–2 года", "2–4 года", "4–6 лет"]
 
 async def check_trial_and_inform(message: types.Message) -> bool:
     """Проверка пробного периода перед доступом к разделу"""
@@ -42,18 +44,14 @@ async def show_education_menu(message: types.Message):
 @router.message(lambda msg: msg.text == "🔢 Выбрать возраст ребёнка")
 async def choose_age_menu(message: types.Message):
     keyboard = ReplyKeyboardMarkup(
-        keyboard=[
-            [KeyboardButton(text="0–6 мес"), KeyboardButton(text="6–12 мес")],
-            [KeyboardButton(text="1–2 года"), KeyboardButton(text="2–4 года")],
-            [KeyboardButton(text="4–6 лет")],
-            [KeyboardButton(text="🔙 Назад в обучение")]
-        ],
+        keyboard=[[KeyboardButton(text=age)] for age in AGE_CHOICES] + [[KeyboardButton(text="🔙 Назад в обучение")]],
         resize_keyboard=True
     )
     await message.answer("Выберите возраст ребёнка кнопкой 👇", reply_markup=keyboard)
 
-@router.message(lambda msg: msg.text in {"0–6 мес", "6–12 мес", "1–2 года", "2–4 года", "4–6 лет"})
+@router.message(lambda msg: msg.text in AGE_CHOICES)
 async def confirm_user_age_buttons(message: types.Message):
+    save_user_age_range(message.from_user.id, message.text)
     await message.answer(f"✅ Возраст выбран: {message.text}. Теперь задания будут адаптированы! 🧠")
 
 @router.message(lambda msg: msg.text == "📷 Развивающие уроки (AI)")
@@ -61,9 +59,11 @@ async def ai_lessons_handler(message: types.Message):
     if not await check_trial_and_inform(message):
         return
 
+    age_range = get_user_age_range(message.from_user.id) or "2–4 года"
+
     await message.answer("⏳ Генерирую AI-задание... Подожди немного, Тимми работает 🧠")
     try:
-        task = generate_ai_lesson(user_id=message.from_user.id)
+        task = generate_ai_lesson(user_id=message.from_user.id, age_range=age_range)
         await message.answer(f"🧸 Вот твоё AI-задание:\n\n{task}")
     except Exception as e:
         await message.answer("❌ Упс! Что-то пошло не так с генерацией задания. Попробуй позже.")

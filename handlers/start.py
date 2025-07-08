@@ -32,25 +32,8 @@ async def start_handler(message: types.Message):
         await message.answer(
             "🚫 Ваш пробный период завершён. Чтобы снова получить доступ к полному функционалу, пожалуйста, оформите подписку."
         )
-        return  # Блокируем доступ, если пробный закончился
+        return
 
-    keyboard = ReplyKeyboardMarkup(
-        keyboard=[
-            [KeyboardButton(text="📅 День с Тимми")],
-            [KeyboardButton(text="📚 Обучение"), KeyboardButton(text="💡 Советы от профи")],
-            [KeyboardButton(text="🚀 Марафоны и интенсивы"), KeyboardButton(text="📖 Библиотека PDF")],
-            [KeyboardButton(text="📈 Мой прогресс"), KeyboardButton(text="📞 Помощь и связь")],
-            [KeyboardButton(text="🔖 Недавно просмотренные")]
-        ],
-        resize_keyboard=True
-    )
-    await message.answer(
-        "Выбирай раздел 👇",
-        reply_markup=keyboard
-    )
-
-
-    # 2) Отправляем клавиатуру с приветственным сообщением
     keyboard = ReplyKeyboardMarkup(
         keyboard=[
             [KeyboardButton(text="📅 День с Тимми")],

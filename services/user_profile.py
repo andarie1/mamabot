@@ -2,6 +2,13 @@ import json
 from pathlib import Path
 from typing import Optional
 from datetime import datetime, timedelta
+import os
+from dotenv import load_dotenv
+
+# === Загрузка переменных окружения ===
+load_dotenv()
+admin_ids_str = os.getenv("ADMIN_IDS", "")
+ADMIN_IDS = [int(uid.strip()) for uid in admin_ids_str.split(",") if uid.strip().isdigit()]
 
 USERS_FILE = Path("data/users.json")
 
@@ -82,6 +89,9 @@ def has_active_subscription(user_id: int) -> bool:
     """
     Проверяет, активна ли подписка пользователя на текущий момент.
     """
+    if user_id in ADMIN_IDS:
+        return True
+
     data = _read_users_data()
     sub_end_str: Optional[str] = data.get(str(user_id), {}).get("subscription_until")
     if not sub_end_str:
