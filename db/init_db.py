@@ -21,23 +21,35 @@ CREATE TABLE IF NOT EXISTS library (
 """)
 
 # Пример добавления первых записей с возрастом
-cursor.executemany("""
-INSERT INTO library (title, description, file_path, age_range) VALUES (?, ?, ?, ?)
-""", [
-    (
-        "Первые дни дома",
-        "Чек-лист для подготовки дома к малышу.",
-        "pdfs/checklist/cl_newborn_prep.pdf",
-        "0–6 месяца"
-    ),
-    (
-        "Грудное вскармливание",
-        "Полезный гид по началу кормления грудью.",
-        "pdfs/guides/breastfeeding_guide.pdf",
-        "0–6 месяца"
-    )
-])
+cursor.executescript("""
+INSERT INTO library (title, description, file_path, age_range) VALUES
+(
+    "Что бы я не купила для новорождённого, имея опыт с первым ребёнком",
+    "Lucruri inutile pe care nu merită să le cumpărați pentru un nou-născut.",
+    "pdfs/guides/things_not_to_buy_guide_ru_ro.pdf",
+    "0–6 месяцев"
+),
+(
+    "Аптечка для новорождённого",
+    "Trusa medicală esențială pentru îngrijirea și siguranța nou-născutului, inclusiv recomandări pentru îngrijirea buricului.",
+    "pdfs/checklists/preparing_babyroom_cl_ru_ro.pdf",
+    "0–6 месяцев"
+),
+(
+    "Чек-лист по подготовке комнаты для новорождённого",
+    "Lista completă cu recomandări despre organizarea camerei.",
+    "pdfs/checklists/preparing_babyroom_cl_ru_ro.pdf",
+    "0–6 месяцев"
+),
+(
+    "Гид по грудному вскармливанию",
+    "Ghid detaliat despre alăptare: semnele atașării corecte.",
+    "pdfs/guides/breastfeeding_guide_ru_ro.pdf",
+    "0–6 месяцев"
+);
+""")
 
 conn.commit()
 conn.close()
+
 print("✅ База и таблица успешно созданы, первые записи добавлены!")
