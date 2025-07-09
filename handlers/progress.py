@@ -1,6 +1,6 @@
 from aiogram import Router, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, FSInputFile
-from services.progress_tracker import get_achievements, get_progress
+from services.progress_tracker import get_achievements, get_progress, get_medal_image
 from services.progress_report import generate_progress_report
 from handlers.start import start_handler
 
@@ -23,7 +23,12 @@ async def show_progress_menu(message: types.Message):
 async def medals_handler(message: types.Message):
     result = get_achievements(message.from_user.id)
     if result:
-        await message.answer(result)
+        for medal in result:
+            image_path = get_medal_image(medal["medal_name"])
+            if image_path:
+                await message.answer_photo(FSInputFile(image_path), caption=f"🏅 {medal['medal_name']}\n{medal['description']}")
+            else:
+                await message.answer(f"🏅 {medal['medal_name']}: {medal['description']}")
     else:
         await message.answer("Пока нет медалей. Выполняй уроки с Тимми!")
 

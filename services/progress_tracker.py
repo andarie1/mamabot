@@ -46,13 +46,29 @@ def get_last_activities(user_id: int, limit: int = 3) -> List[str]:
     data = _read_progress_data()
     return [entry["activity"] for entry in data.get(str(user_id), [])][-limit:]
 
-def get_achievements(user_id: int) -> str:
-    """Определяет достижения пользователя на основе количества выполненных уроков."""
+def get_achievements(user_id: int) -> List[Dict[str, str]]:
+    """Определяет список достижений пользователя на основе прогресса."""
     progress = get_progress(user_id)
     lesson_count = sum(1 for p in progress if "урок" in p["activity"].lower())
 
+    medals = []
     if lesson_count >= 3:
-        return "⭐ Звёздочка Тимми! Ты выполнил 3 урока!"
-    elif lesson_count >= 1:
-        return "✨ Первый шаг сделан! Гордимся тобой!"
-    return ""
+        medals.append({
+            "medal_name": "Звёздочка Тимми",
+            "description": "⭐ Ты выполнил 3 урока с Тимми! Продолжай в том же духе!"
+        })
+    else:
+        if lesson_count >= 1:
+            medals.append({
+                "medal_name": "Звёздочка Тимми",
+                "description": "✨ Первый урок завершён! Отличное начало!"
+            })
+
+    return medals
+
+def get_medal_image(medal_name: str) -> str:
+    """Возвращает путь к изображению медали по названию."""
+    mapping = {
+        "Звёздочка Тимми": "assets/cute_racoon_stars.png"
+    }
+    return mapping.get(medal_name, "")
