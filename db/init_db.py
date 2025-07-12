@@ -13,7 +13,7 @@ ARTICLES = [
     {
         "title": "Как помочь ребёнку понять силу слов",
         "description": "Ce să-i spună mama copilului dacă a rostit ceva jignitor",
-        "file_path": "pdfs/guides/power_of_words.pdf",
+        "file_path": "pdfs/guides/power_of_words_ru_ro.pdf",
         "ages": ["2–4 года", "4–6 лет"]
     },
     {
