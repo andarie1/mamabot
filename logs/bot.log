@@ -580,3 +580,59 @@ sqlite3.OperationalError: no such column: age_group
 2025-07-08 21:56:27,794 [INFO] Polling stopped
 2025-07-08 21:56:28,050 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
 2025-07-08 21:56:28,052 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 13:18:07,556 [INFO] ✅ База данных подключена.
+2025-07-12 13:18:07,557 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 13:18:08,873 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 13:18:08,873 [INFO] Start polling
+2025-07-12 13:18:09,085 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:18:38,389 [INFO] Update id=653453839 is handled. Duration 218 ms by bot id=7660984376
+2025-07-12 13:18:42,838 [INFO] Update id=653453840 is handled. Duration 155 ms by bot id=7660984376
+2025-07-12 13:18:55,117 [INFO] Update id=653453841 is handled. Duration 234 ms by bot id=7660984376
+2025-07-12 13:19:36,896 [INFO] Update id=653453842 is handled. Duration 313 ms by bot id=7660984376
+2025-07-12 13:19:44,957 [INFO] Update id=653453843 is handled. Duration 593 ms by bot id=7660984376
+2025-07-12 13:19:58,632 [INFO] Update id=653453844 is handled. Duration 186 ms by bot id=7660984376
+2025-07-12 13:20:00,286 [INFO] Update id=653453845 is handled. Duration 78 ms by bot id=7660984376
+2025-07-12 13:20:02,218 [INFO] Update id=653453846 is handled. Duration 139 ms by bot id=7660984376
+2025-07-12 13:20:18,103 [INFO] Update id=653453847 is handled. Duration 484 ms by bot id=7660984376
+2025-07-12 13:20:23,640 [INFO] Polling stopped
+2025-07-12 13:20:23,908 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:20:23,910 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 13:48:04,455 [INFO] ✅ База данных подключена.
+2025-07-12 13:48:04,455 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 13:48:05,317 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 13:48:05,325 [INFO] Start polling
+2025-07-12 13:48:05,473 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:48:05,745 [INFO] Update id=653453848 is handled. Duration 202 ms by bot id=7660984376
+2025-07-12 13:48:15,120 [INFO] Update id=653453849 is handled. Duration 500 ms by bot id=7660984376
+2025-07-12 13:48:16,227 [INFO] Update id=653453850 is handled. Duration 155 ms by bot id=7660984376
+2025-07-12 13:48:17,675 [INFO] Update id=653453851 is handled. Duration 172 ms by bot id=7660984376
+2025-07-12 13:48:21,607 [INFO] Update id=653453852 is handled. Duration 125 ms by bot id=7660984376
+2025-07-12 13:48:29,837 [INFO] Polling stopped
+2025-07-12 13:48:30,091 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:48:30,094 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 13:51:32,227 [INFO] ✅ База данных подключена.
+2025-07-12 13:51:32,227 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 13:51:33,015 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 13:51:33,015 [INFO] Start polling
+2025-07-12 13:51:33,174 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:51:42,346 [INFO] Update id=653453853 is handled. Duration 437 ms by bot id=7660984376
+2025-07-12 13:51:43,627 [INFO] Update id=653453854 is handled. Duration 77 ms by bot id=7660984376
+2025-07-12 13:51:45,584 [INFO] Update id=653453855 is handled. Duration 155 ms by bot id=7660984376
+2025-07-12 13:51:49,495 [INFO] Update id=653453856 is handled. Duration 77 ms by bot id=7660984376
+2025-07-12 13:54:10,801 [INFO] Polling stopped
+2025-07-12 13:54:11,064 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:54:11,064 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 13:55:46,993 [INFO] ✅ База данных подключена.
+2025-07-12 13:55:46,993 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 13:55:47,850 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 13:55:47,850 [INFO] Start polling
+2025-07-12 13:55:48,052 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:55:52,657 [INFO] Update id=653453857 is handled. Duration 718 ms by bot id=7660984376
+2025-07-12 13:55:55,025 [INFO] Update id=653453858 is handled. Duration 77 ms by bot id=7660984376
+2025-07-12 13:55:57,077 [INFO] Update id=653453859 is handled. Duration 219 ms by bot id=7660984376
+2025-07-12 13:55:57,358 [INFO] Update id=653453860 is handled. Duration 187 ms by bot id=7660984376
+2025-07-12 13:56:06,388 [INFO] Update id=653453861 is handled. Duration 93 ms by bot id=7660984376
+2025-07-12 13:56:26,004 [INFO] Update id=653453862 is handled. Duration 483 ms by bot id=7660984376
+2025-07-12 14:04:43,157 [INFO] Polling stopped
+2025-07-12 14:04:43,418 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 14:04:43,421 [INFO] 🛑 Бот остановлен вручную.

@@ -31,7 +31,10 @@ async def show_library_menu(message: types.Message):
     user_id = message.from_user.id
     age = get_user_age_range(user_id)
     if not age:
-        await message.answer("👶 Пожалуйста, выберите возраст ребёнка, чтобы подобрать материалы:", reply_markup=get_age_keyboard())
+        await message.answer(
+            "👶 Пожалуйста, выберите возраст ребёнка, чтобы подобрать материалы:",
+            reply_markup=get_age_keyboard()
+        )
         return
 
     if not has_active_subscription(user_id) and user_id not in ADMIN_IDS:
@@ -48,12 +51,15 @@ async def show_library_menu(message: types.Message):
         ],
         resize_keyboard=True
     )
-    await message.answer("📖 Добро пожаловать в библиотеку Тимми!\n\nВыберите раздел:", reply_markup=keyboard)
+    await message.answer(
+        "📖 Добро пожаловать в библиотеку Тимми!\n\nВыберите раздел:",
+        reply_markup=keyboard
+    )
 
 # === Обработка выбора возраста ===
 @router.message(F.text.in_(AGE_CHOICES))
 async def handle_age_selection(message: types.Message):
-    save_user_age_range(message.from_user.id, message.text)
+    save_user_age_range(message.from_user.id, message.text.strip())
     await message.answer("✅ Возраст сохранён! Теперь ты можешь пользоваться платными разделами.")
     await show_library_menu(message)
 
@@ -61,17 +67,29 @@ async def handle_age_selection(message: types.Message):
 def get_library_items_by_type_and_age(item_type: str, age_range: str):
     conn = sqlite3.connect("db/mamabot_db.db")
     cursor = conn.cursor()
-    if item_type == "checklist":
-        path_filter = "checklists"
-    else:
-        path_filter = "guides"
+
+    path_filter = "checklists" if item_type == "checklist" else "guides"
+    age_range = age_range.strip()
+
     cursor.execute(
         """
         SELECT id, title, description FROM library
-        WHERE file_path LIKE ? AND (age_range = ? OR age_range LIKE ?)
+        WHERE file_path LIKE ? AND (
+            age_range = ? OR
+            age_range LIKE ? OR
+            age_range LIKE ? OR
+            age_range LIKE ?
+        )
         """,
-        (f"%{path_filter}%", age_range, f"%{age_range}%")
+        (
+            f"%{path_filter}%",
+            age_range,
+            f"{age_range},%",
+            f"%, {age_range}",
+            f"%, {age_range},%"
+        )
     )
+
     items = cursor.fetchall()
     conn.close()
     return items
@@ -80,7 +98,8 @@ def get_library_items_by_type_and_age(item_type: str, age_range: str):
 @router.message(F.text == "📋 Чек-листы")
 async def show_checklists(message: types.Message):
     user_id = message.from_user.id
-    age_range = get_user_age_range(user_id)
+    age_range = get_user_age_range(user_id).strip()
+
     if not has_active_subscription(user_id) and user_id not in ADMIN_IDS:
         await message.answer("🚫 У вас нет подписки.")
         return
@@ -100,7 +119,8 @@ async def show_checklists(message: types.Message):
 @router.message(F.text == "📘 Гиды")
 async def show_guides(message: types.Message):
     user_id = message.from_user.id
-    age_range = get_user_age_range(user_id)
+    age_range = get_user_age_range(user_id).strip()
+
     if not has_active_subscription(user_id) and user_id not in ADMIN_IDS:
         await message.answer("🚫 У вас нет подписки.")
         return
