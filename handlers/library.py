@@ -71,24 +71,26 @@ def get_library_items_by_type_and_age(item_type: str, age_range: str):
     path_filter = "checklists" if item_type == "checklist" else "guides"
     age_range = age_range.strip()
 
-    cursor.execute(
-        """
-        SELECT id, title, description FROM library
-        WHERE file_path LIKE ? AND (
-            age_range = ? OR
-            age_range LIKE ? OR
-            age_range LIKE ? OR
-            age_range LIKE ?
-        )
-        """,
-        (
-            f"%{path_filter}%",
-            age_range,
-            f"{age_range},%",
-            f"%, {age_range}",
-            f"%, {age_range},%"
-        )
-    )
+    # Получаем возрастные границы по названию (например, "2–4 года")
+    cursor.execute("""
+        SELECT age_from, age_to FROM age_ranges WHERE name = ?
+    """, (age_range,))
+    age_data = cursor.fetchone()
+
+    if not age_data:
+        conn.close()
+        return []
+
+    age_from, age_to = age_data
+
+    cursor.execute("""
+        SELECT l.id, l.title, l.description
+        FROM library l
+        JOIN age_bindings ab ON ab.content_type = 'library' AND ab.content_id = l.id
+        JOIN age_ranges ar ON ar.id = ab.age_id
+        WHERE ar.age_from <= ? AND ar.age_to >= ? AND l.file_path LIKE ?
+        GROUP BY l.id
+    """, (age_to, age_from, f"%{path_filter}%"))
 
     items = cursor.fetchall()
     conn.close()

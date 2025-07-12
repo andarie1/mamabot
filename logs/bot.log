@@ -636,3 +636,141 @@ sqlite3.OperationalError: no such column: age_group
 2025-07-12 14:04:43,157 [INFO] Polling stopped
 2025-07-12 14:04:43,418 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
 2025-07-12 14:04:43,421 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 22:30:12,032 [INFO] ✅ База данных подключена.
+2025-07-12 22:30:12,033 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 22:30:13,237 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 22:30:13,238 [INFO] Start polling
+2025-07-12 22:30:13,442 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 22:31:35,866 [INFO] Update id=653453863 is handled. Duration 250 ms by bot id=7660984376
+2025-07-12 22:31:38,226 [INFO] Update id=653453864 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-12 22:31:38,226 [ERROR] Cause exception while process update id=653453864 by bot id=7660984376
+OperationalError: no such column: age_range
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 128, in show_guides
+    items = get_library_items_by_type_and_age("guide", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 74, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_range
+2025-07-12 22:31:44,739 [INFO] Update id=653453865 is not handled. Duration 16 ms by bot id=7660984376
+2025-07-12 22:31:44,740 [ERROR] Cause exception while process update id=653453865 by bot id=7660984376
+OperationalError: no such column: age_range
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 107, in show_checklists
+    items = get_library_items_by_type_and_age("checklist", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 74, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_range
+2025-07-12 22:32:28,121 [INFO] Polling stopped
+2025-07-12 22:32:28,381 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 22:32:28,385 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 22:34:39,719 [INFO] ✅ База данных подключена.
+2025-07-12 22:34:39,719 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 22:34:40,534 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 22:34:40,534 [INFO] Start polling
+2025-07-12 22:34:40,725 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 22:34:44,654 [INFO] Update id=653453866 is handled. Duration 546 ms by bot id=7660984376
+2025-07-12 22:34:47,108 [INFO] Update id=653453867 is handled. Duration 94 ms by bot id=7660984376
+2025-07-12 22:34:52,325 [INFO] Update id=653453868 is handled. Duration 328 ms by bot id=7660984376
+2025-07-12 22:34:58,097 [INFO] Update id=653453869 is handled. Duration 250 ms by bot id=7660984376
+2025-07-12 22:35:12,260 [INFO] Update id=653453870 is handled. Duration 296 ms by bot id=7660984376
+2025-07-12 22:35:48,508 [INFO] Polling stopped
+2025-07-12 22:35:48,766 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 22:35:48,767 [INFO] 🛑 Бот остановлен вручную.
