@@ -1,11 +1,15 @@
 from aiogram import Router, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, FSInputFile
-from services.progress_tracker import get_achievements, get_progress, get_medal_image
+from services.progress_tracker import (
+    get_achievements,
+    get_medal_image,
+    get_week_progress
+)
 from services.progress_report import generate_progress_report
-from handlers.start import start_handler
 
 router = Router()
 
+# === Главное меню прогресса ===
 @router.message(lambda msg: msg.text == "📈 Мой прогресс")
 async def show_progress_menu(message: types.Message):
     keyboard = ReplyKeyboardMarkup(
@@ -16,9 +20,12 @@ async def show_progress_menu(message: types.Message):
         ],
         resize_keyboard=True
     )
-    await message.answer("📈 Прогресс твоего малыша — вся история и достижения здесь 👇", reply_markup=keyboard)
+    await message.answer(
+        "📈 Здесь ты можешь посмотреть достижения и активность своего малыша:",
+        reply_markup=keyboard
+    )
 
-
+# === Медали ===
 @router.message(lambda msg: msg.text == "🏅 Мои медали")
 async def medals_handler(message: types.Message):
     result = get_achievements(message.from_user.id)
@@ -26,23 +33,26 @@ async def medals_handler(message: types.Message):
         for medal in result:
             image_path = get_medal_image(medal["medal_name"])
             if image_path:
-                await message.answer_photo(FSInputFile(image_path), caption=f"🏅 {medal['medal_name']}\n{medal['description']}")
+                await message.answer_photo(
+                    FSInputFile(image_path),
+                    caption=f"🏅 {medal['medal_name']}\n{medal['description']}"
+                )
             else:
-                await message.answer(f"🏅 {medal['medal_name']}: {medal['description']}")
+                await message.answer(f"🏅 {medal['medal_name']}:\n{medal['description']}")
     else:
-        await message.answer("Пока нет медалей. Выполняй уроки с Тимми!")
+        await message.answer("🏅 Пока нет медалей. Выполняй задания, чтобы заработать первые достижения!")
 
-
+# === История заданий за неделю ===
 @router.message(lambda msg: msg.text == "📊 История заданий")
 async def history_handler(message: types.Message):
-    progress = get_progress(message.from_user.id)
-    if not progress:
-        await message.answer("История пока пуста. Выполни своё первое задание!")
+    last_week = get_week_progress(message.from_user.id)
+    if not last_week:
+        await message.answer("📭 Тимми по тебе скучает... На этой неделе ты ещё не выполнял задания.")
     else:
-        text = "\n".join([f"— {entry['activity']} ({entry['timestamp']})" for entry in progress])
-        await message.answer(f"📘 Вот твои задания:\n\n{text}")
+        text = "\n".join(last_week)
+        await message.answer(f"📘 Твоя активность за последние 7 дней:\n\n{text}")
 
-
+# === Скачивание PDF-отчёта ===
 @router.message(lambda msg: msg.text == "📄 Скачать отчёт (PDF)")
 async def download_report_handler(message: types.Message):
     path = generate_progress_report(message.from_user.id, message.from_user.first_name)
@@ -51,7 +61,8 @@ async def download_report_handler(message: types.Message):
     else:
         await message.answer("Нет данных для отчёта 😔")
 
-
+# === Назад в главное меню ===
 @router.message(lambda msg: msg.text == "🔙 Назад в главное меню")
 async def go_back_to_main(message: types.Message):
+    from handlers.start import start_handler
     await start_handler(message)

@@ -18,7 +18,6 @@ if not USERS_FILE.exists():
     USERS_FILE.write_text(json.dumps({}, indent=2), encoding="utf-8")
 
 def _read_users_data() -> dict:
-    """Считывает данные пользователей из JSON-файла."""
     try:
         text = USERS_FILE.read_text(encoding="utf-8").strip()
         return json.loads(text) if text else {}
@@ -26,24 +25,15 @@ def _read_users_data() -> dict:
         return {}
 
 def save_user_age_range(user_id: int, age_range: str) -> None:
-    """
-    Сохраняет возрастной диапазон для пользователя (например: '0-6 мес', '2-4 года').
-    """
     data = _read_users_data()
     data[str(user_id)] = {**data.get(str(user_id), {}), "age_range": age_range}
     USERS_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def get_user_age_range(user_id: int) -> Optional[str]:
-    """
-    Получает сохранённый возрастной диапазон пользователя.
-    """
     data = _read_users_data()
     return data.get(str(user_id), {}).get("age_range")
 
 def save_trial_start(user_id: int) -> None:
-    """
-    Сохраняет дату начала пробного периода, если она ещё не была записана.
-    """
     data = _read_users_data()
     user_key = str(user_id)
     if "trial_start" not in data.get(user_key, {}):
@@ -51,12 +41,9 @@ def save_trial_start(user_id: int) -> None:
         USERS_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def get_trial_status(user_id: int, trial_days: int = 7) -> str:
-    """
-    Проверяет статус пробного периода:
-    - 'active' — если пробный период ещё идёт
-    - 'almost_over' — если остался 1 день
-    - 'expired' — если пробный период закончился
-    """
+    if user_id in ADMIN_IDS:
+        return "active"
+
     data = _read_users_data()
     trial_start_str = data.get(str(user_id), {}).get("trial_start")
     if not trial_start_str:
@@ -77,18 +64,12 @@ def get_trial_status(user_id: int, trial_days: int = 7) -> str:
         return "expired"
 
 def set_subscription(user_id: int, until: datetime) -> None:
-    """
-    Устанавливает или обновляет дату окончания платной подписки для пользователя.
-    """
     data = _read_users_data()
     data.setdefault(str(user_id), {})
     data[str(user_id)]["subscription_until"] = until.isoformat()
     USERS_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def has_active_subscription(user_id: int) -> bool:
-    """
-    Проверяет, активна ли подписка пользователя на текущий момент.
-    """
     if user_id in ADMIN_IDS:
         return True
 
@@ -102,3 +83,16 @@ def has_active_subscription(user_id: int) -> bool:
         return datetime.utcnow() <= sub_end
     except ValueError:
         return False
+
+def has_full_access(user_id: int) -> bool:
+    """Полный доступ: только админ или активная платная подписка."""
+    if user_id in ADMIN_IDS:
+        return True
+    return has_active_subscription(user_id)
+
+def has_trial_or_full_access(user_id: int) -> bool:
+    """Доступ к общим разделам: пробный, платный или админский."""
+    if has_full_access(user_id):
+        return True
+    return get_trial_status(user_id) in ("active", "almost_over")
+

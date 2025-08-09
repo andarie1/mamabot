@@ -48,18 +48,30 @@ os.makedirs("pdfs/guides", exist_ok=True)
 os.makedirs("assets/voices", exist_ok=True)
 logger.info("📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices")
 
-# === Подключение роутеров ===
+# === Импорт и подключение всех обработчиков ===
 from handlers import (
-    start, education, day_with_timmy,
-    library, marathons, tips,
-    progress, contact, admin
+    start,
+    education,
+    day_with_timmy,
+    library,
+    marathons,
+    tips,
+    progress,
+    contact,
+    admin,
+    global_routes
 )
 
-dp.include_routers(
-    start.router, education.router, day_with_timmy.router,
-    library.router, marathons.router, tips.router,
-    progress.router, contact.router, admin.router,
-)
+dp.include_router(global_routes.router)
+dp.include_router(start.router)
+dp.include_router(education.router)
+dp.include_router(day_with_timmy.router)
+dp.include_router(library.router)
+dp.include_router(marathons.router)
+dp.include_router(tips.router)
+dp.include_router(progress.router)
+dp.include_router(contact.router)
+dp.include_router(admin.router)
 
 # === Основной цикл ===
 async def main():

@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict
 
 PROGRESS_FILE = Path("data/progress.json")
@@ -72,3 +72,22 @@ def get_medal_image(medal_name: str) -> str:
         "Звёздочка Тимми": "assets/cute_racoon_stars.png"
     }
     return mapping.get(medal_name, "")
+
+def get_week_progress(user_id: int) -> list[str]:
+    """
+    Возвращает список действий пользователя только за последние 7 дней.
+    """
+    all_progress = get_progress(user_id)
+    now = datetime.now()
+    week_ago = now - timedelta(days=7)
+
+    weekly = []
+    for entry in all_progress:
+        try:
+            ts = datetime.fromisoformat(entry["timestamp"])
+            if ts >= week_ago:
+                weekly.append(f"{entry['activity']} — {ts.strftime('%d.%m.%Y %H:%M')}")
+        except Exception:
+            continue
+
+    return weekly

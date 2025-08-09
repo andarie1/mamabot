@@ -1,17 +1,12 @@
 from aiogram import Router, types, F
 from aiogram.types import (
-    ReplyKeyboardMarkup, KeyboardButton,
-    InlineKeyboardMarkup, InlineKeyboardButton,
-    CallbackQuery, FSInputFile
+    ReplyKeyboardMarkup, KeyboardButton
 )
-from handlers.start import start_handler
 from services.user_profile import (
-    has_active_subscription,
+    has_full_access,
     get_user_age_range,
-    save_user_age_range,
-    ADMIN_IDS
+    save_user_age_range
 )
-import os
 
 router = Router()
 
@@ -30,7 +25,10 @@ async def show_marathons_menu(message: types.Message):
     user_id = message.from_user.id
     age = get_user_age_range(user_id)
     if not age:
-        await message.answer("👶 Пожалуйста, выберите возраст ребёнка, чтобы подобрать материалы:", reply_markup=get_age_keyboard())
+        await message.answer(
+            "👶 Пожалуйста, выберите возраст ребёнка, чтобы подобрать материалы:",
+            reply_markup=get_age_keyboard()
+        )
         return
 
     keyboard = ReplyKeyboardMarkup(
@@ -42,8 +40,8 @@ async def show_marathons_menu(message: types.Message):
     )
     await message.answer(
         "🚀 Здесь собраны специальные программы и интенсивы.\n\n"
-        "Чтобы открыть доступ, оплатите подписку.\n"
-        "Выберите интересующий марафон или нажмите « \xab🔓 Открыть доступ»\xbb:",
+        "Чтобы открыть доступ, активируй подписку.\n"
+        "Выбери интересующий марафон или нажми «🔓 Открыть доступ»:",
         reply_markup=keyboard
     )
 
@@ -58,7 +56,7 @@ async def handle_age_selection(message: types.Message):
 @router.message(F.text.in_({"🎯 Подготовка к садику", "✏ Подготовка к школе"}))
 async def marathon_content_handler(message: types.Message):
     user_id = message.from_user.id
-    if user_id in ADMIN_IDS or has_active_subscription(user_id):
+    if has_full_access(user_id):
         await message.answer(
             f"✅ Доступ открыт! 🎉\n\n"
             f"Начинай марафон: {message.text}.\n"
@@ -67,20 +65,21 @@ async def marathon_content_handler(message: types.Message):
     else:
         await message.answer(
             "🔒 Этот марафон доступен только после оплаты.\n\n"
-            "Нажмите « \xab🔓 Открыть доступ»\xbb, чтобы перейти к оплате."
+            "Нажми «🔓 Открыть доступ», чтобы перейти к оплате."
         )
 
 # === Открыть доступ ===
 @router.message(F.text == "🔓 Открыть доступ")
 async def open_access_handler(message: types.Message):
     await message.answer(
-        "💳 Чтобы получить полный доступ к марафонам и интенсивам, перейдите по ссылке для оплаты:\n\n"
+        "💳 Чтобы получить полный доступ, перейди по ссылке для оплаты:\n\n"
         "<b>[Ваша ссылка на оплату]</b>\n\n"
-        "После успешной оплаты доступ будет открыт автоматически! 🎉",
+        "После успешной оплаты доступ откроется автоматически! 🎉",
         parse_mode="HTML"
     )
 
 # === Назад в главное меню ===
 @router.message(F.text == "🔙 Назад в главное меню")
 async def go_back_to_main(message: types.Message):
+    from handlers.start import start_handler
     await start_handler(message)

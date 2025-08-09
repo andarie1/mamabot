@@ -2,14 +2,12 @@ from aiogram import Router, types, F
 from aiogram.types import (
     ReplyKeyboardMarkup, KeyboardButton,
     InlineKeyboardMarkup, InlineKeyboardButton,
-    FSInputFile, CallbackQuery
+    CallbackQuery, FSInputFile
 )
-from handlers.start import start_handler
 from services.user_profile import (
-    has_active_subscription,
+    has_full_access,
     get_user_age_range,
-    save_user_age_range,
-    ADMIN_IDS
+    save_user_age_range
 )
 import sqlite3
 import os
@@ -37,9 +35,9 @@ async def show_library_menu(message: types.Message):
         )
         return
 
-    if not has_active_subscription(user_id) and user_id not in ADMIN_IDS:
+    if not has_full_access(user_id):
         await message.answer(
-            "🚫 Доступ к библиотеке закрыт.\n"
+            "❌ Доступ к библиотеке закрыт.\n"
             "Чтобы открыть PDF-чек-листы и гиды, активируйте подписку 💳."
         )
         return
@@ -71,7 +69,6 @@ def get_library_items_by_type_and_age(item_type: str, age_range: str):
     path_filter = "checklists" if item_type == "checklist" else "guides"
     age_range = age_range.strip()
 
-    # Получаем возрастные границы по названию (например, "2–4 года")
     cursor.execute("""
         SELECT age_from, age_to FROM age_ranges WHERE name = ?
     """, (age_range,))
@@ -96,14 +93,14 @@ def get_library_items_by_type_and_age(item_type: str, age_range: str):
     conn.close()
     return items
 
-# === Чек-листы ===
+# === Отображение чек-листов ===
 @router.message(F.text == "📋 Чек-листы")
 async def show_checklists(message: types.Message):
     user_id = message.from_user.id
     age_range = get_user_age_range(user_id).strip()
 
-    if not has_active_subscription(user_id) and user_id not in ADMIN_IDS:
-        await message.answer("🚫 У вас нет подписки.")
+    if not has_full_access(user_id):
+        await message.answer("❌ У вас нет доступа к чек-листам.")
         return
 
     items = get_library_items_by_type_and_age("checklist", age_range)
@@ -112,19 +109,23 @@ async def show_checklists(message: types.Message):
         return
 
     for item_id, title, description in items:
+        preview = description[:200] + "..." if description else "Нет описания."
         keyboard = InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text="📅 Скачать", callback_data=f"download_{item_id}")]
+            [
+                InlineKeyboardButton(text="📄 Читать", callback_data=f"preview_{item_id}"),
+                InlineKeyboardButton(text="⬇️ Скачать", callback_data=f"download_{item_id}")
+            ]
         ])
-        await message.answer(f"<b>{title}</b>\n{description}", reply_markup=keyboard, parse_mode="HTML")
+        await message.answer(f"<b>{title}</b>\n{preview}", reply_markup=keyboard, parse_mode="HTML")
 
-# === Гиды ===
+# === Отображение гидов ===
 @router.message(F.text == "📘 Гиды")
 async def show_guides(message: types.Message):
     user_id = message.from_user.id
     age_range = get_user_age_range(user_id).strip()
 
-    if not has_active_subscription(user_id) and user_id not in ADMIN_IDS:
-        await message.answer("🚫 У вас нет подписки.")
+    if not has_full_access(user_id):
+        await message.answer("❌ У вас нет доступа к гидам.")
         return
 
     items = get_library_items_by_type_and_age("guide", age_range)
@@ -133,12 +134,53 @@ async def show_guides(message: types.Message):
         return
 
     for item_id, title, description in items:
+        preview = description[:200] + "..." if description else "Нет описания."
         keyboard = InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text="📅 Скачать", callback_data=f"download_{item_id}")]
+            [
+                InlineKeyboardButton(text="📄 Читать", callback_data=f"preview_{item_id}"),
+                InlineKeyboardButton(text="⬇️ Скачать", callback_data=f"download_{item_id}")
+            ]
         ])
-        await message.answer(f"<b>{title}</b>\n{description}", reply_markup=keyboard, parse_mode="HTML")
+        await message.answer(f"<b>{title}</b>\n{preview}", reply_markup=keyboard, parse_mode="HTML")
 
-# === Загрузка PDF по кнопке ===
+# === Предпросмотр статьи ===
+@router.callback_query(F.data.startswith("preview_"))
+async def preview_selected_pdf(callback: CallbackQuery):
+    item_id = int(callback.data.replace("preview_", ""))
+    conn = sqlite3.connect("db/mamabot_db.db")
+    cursor = conn.cursor()
+    cursor.execute("SELECT title, description FROM library WHERE id = ?", (item_id,))
+    result = cursor.fetchone()
+    conn.close()
+
+    if result:
+        title, description = result
+        keyboard = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="🔽 Читать полностью", callback_data=f"full_{item_id}")]
+        ])
+        await callback.message.answer(f"📄 <b>{title}</b>\n\n{description[:200]}...", reply_markup=keyboard, parse_mode="HTML")
+    else:
+        await callback.message.answer("❌ Файл не найден.")
+    await callback.answer()
+
+# === Полный текст статьи ===
+@router.callback_query(F.data.startswith("full_"))
+async def full_description(callback: CallbackQuery):
+    item_id = int(callback.data.replace("full_", ""))
+    conn = sqlite3.connect("db/mamabot_db.db")
+    cursor = conn.cursor()
+    cursor.execute("SELECT title, description FROM library WHERE id = ?", (item_id,))
+    result = cursor.fetchone()
+    conn.close()
+
+    if result:
+        title, description = result
+        await callback.message.answer(f"📖 <b>{title}</b>\n\n{description}", parse_mode="HTML")
+    else:
+        await callback.message.answer("❌ Файл не найден.")
+    await callback.answer()
+
+# === Загрузка PDF ===
 @router.callback_query(F.data.startswith("download_"))
 async def send_selected_pdf(callback: CallbackQuery):
     item_id = int(callback.data.replace("download_", ""))
@@ -162,6 +204,7 @@ async def send_selected_pdf(callback: CallbackQuery):
     await callback.answer()
 
 # === Назад в главное меню ===
-@router.message(F.text == "🔙 Назад в главное меню")
+@router.message(lambda msg: msg.text == "🔙 Назад в главное меню")
 async def go_back_to_main(message: types.Message):
+    from handlers.start import start_handler
     await start_handler(message)
