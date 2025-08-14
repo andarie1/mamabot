@@ -1674,3 +1674,290 @@ TypeError: string indices must be integers, not 'str'
 2025-08-07 11:46:13,212 [INFO] Polling stopped
 2025-08-07 11:46:13,468 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
 2025-08-07 11:46:13,472 [INFO] 🛑 Бот остановлен вручную.
+2025-08-09 11:42:03,203 [INFO] ✅ База данных подключена.
+2025-08-09 11:42:03,203 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-09 11:42:04,362 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-09 11:42:04,374 [INFO] Start polling
+2025-08-09 11:42:04,565 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-09 11:42:30,330 [INFO] Update id=653454045 is handled. Duration 688 ms by bot id=7660984376
+2025-08-09 11:42:36,793 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-09 11:42:38,032 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-09 11:42:38,951 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-09 11:42:39,059 [INFO] Update id=653454046 is handled. Duration 4203 ms by bot id=7660984376
+2025-08-09 11:43:00,543 [INFO] Update id=653454047 is not handled. Duration 14 ms by bot id=7660984376
+2025-08-09 11:43:08,275 [INFO] Polling stopped
+2025-08-09 11:43:08,532 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-09 11:43:08,532 [INFO] 🛑 Бот остановлен вручную.
+2025-08-09 12:43:14,068 [INFO] ✅ База данных подключена.
+2025-08-09 12:43:14,068 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-09 12:43:14,903 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-09 12:43:14,903 [INFO] Start polling
+2025-08-09 12:43:15,077 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-09 12:43:55,375 [INFO] Update id=653454048 is handled. Duration 405 ms by bot id=7660984376
+2025-08-09 12:43:58,813 [INFO] Recent: handler triggered for user 5398798816
+2025-08-09 12:43:58,909 [INFO] Update id=653454049 is handled. Duration 94 ms by bot id=7660984376
+2025-08-09 12:44:05,538 [INFO] Polling stopped
+2025-08-09 12:44:05,798 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-09 12:44:05,798 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:41:46,042 [INFO] ✅ База данных подключена.
+2025-08-10 17:41:46,042 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:41:47,495 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:41:47,495 [INFO] Start polling
+2025-08-10 17:41:47,701 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:42:08,721 [INFO] Update id=653454050 is handled. Duration 530 ms by bot id=7660984376
+2025-08-10 17:42:13,958 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:42:15,185 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:42:16,322 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:42:16,503 [INFO] Update id=653454051 is handled. Duration 5171 ms by bot id=7660984376
+2025-08-10 17:42:45,257 [INFO] Update id=653454052 is handled. Duration 250 ms by bot id=7660984376
+2025-08-10 17:42:49,055 [INFO] Update id=653454053 is handled. Duration 78 ms by bot id=7660984376
+2025-08-10 17:47:18,568 [INFO] Polling stopped
+2025-08-10 17:47:18,824 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:47:18,824 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:50:24,797 [INFO] ✅ База данных подключена.
+2025-08-10 17:50:24,797 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:50:25,606 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:50:25,606 [INFO] Start polling
+2025-08-10 17:50:25,794 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:50:29,928 [INFO] Update id=653454054 is handled. Duration 219 ms by bot id=7660984376
+2025-08-10 17:50:35,621 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:50:35,747 [INFO] Update id=653454055 is handled. Duration 2015 ms by bot id=7660984376
+2025-08-10 17:50:45,644 [INFO] Update id=653454056 is handled. Duration 78 ms by bot id=7660984376
+2025-08-10 17:50:49,007 [INFO] Update id=653454057 is handled. Duration 328 ms by bot id=7660984376
+2025-08-10 17:51:00,310 [INFO] Update id=653454058 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 17:51:05,419 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:51:05,560 [INFO] Update id=653454059 is handled. Duration 1688 ms by bot id=7660984376
+2025-08-10 17:51:28,874 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:51:28,963 [INFO] Update id=653454060 is handled. Duration 3359 ms by bot id=7660984376
+2025-08-10 17:51:40,542 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:51:40,634 [INFO] Update id=653454061 is handled. Duration 2157 ms by bot id=7660984376
+2025-08-10 17:51:56,582 [INFO] Polling stopped
+2025-08-10 17:51:56,833 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:51:56,833 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:57:29,859 [INFO] ✅ База данных подключена.
+2025-08-10 17:57:29,859 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:57:30,632 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:57:30,632 [INFO] Start polling
+2025-08-10 17:57:30,808 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:57:42,114 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:57:42,299 [INFO] Update id=653454062 is handled. Duration 3891 ms by bot id=7660984376
+2025-08-10 17:57:52,742 [INFO] Update id=653454063 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 17:57:55,670 [INFO] Update id=653454064 is handled. Duration 78 ms by bot id=7660984376
+2025-08-10 17:57:57,415 [INFO] Update id=653454065 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 17:58:33,135 [INFO] Polling stopped
+2025-08-10 17:58:33,387 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:58:33,390 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:58:44,147 [INFO] ✅ База данных подключена.
+2025-08-10 17:58:44,148 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:58:44,993 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:58:44,994 [INFO] Start polling
+2025-08-10 17:58:45,181 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:58:45,757 [INFO] Update id=653454066 is handled. Duration 516 ms by bot id=7660984376
+2025-08-10 17:58:49,912 [INFO] Update id=653454067 is handled. Duration 125 ms by bot id=7660984376
+2025-08-10 17:58:52,115 [INFO] Update id=653454068 is handled. Duration 108 ms by bot id=7660984376
+2025-08-10 17:58:56,055 [INFO] Update id=653454069 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 17:58:58,304 [INFO] Update id=653454070 is handled. Duration 328 ms by bot id=7660984376
+2025-08-10 17:59:00,336 [INFO] Update id=653454071 is handled. Duration 125 ms by bot id=7660984376
+2025-08-10 17:59:02,574 [INFO] Update id=653454072 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 17:59:06,022 [INFO] Update id=653454073 is handled. Duration 483 ms by bot id=7660984376
+2025-08-10 17:59:09,568 [INFO] Update id=653454074 is handled. Duration 311 ms by bot id=7660984376
+2025-08-10 17:59:46,086 [INFO] Polling stopped
+2025-08-10 17:59:46,350 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:59:46,350 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:59:58,379 [INFO] ✅ База данных подключена.
+2025-08-10 17:59:58,379 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:59:59,251 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:59:59,251 [INFO] Start polling
+2025-08-10 17:59:59,425 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:00:07,159 [INFO] Update id=653454075 is handled. Duration 389 ms by bot id=7660984376
+2025-08-10 18:00:10,675 [INFO] Update id=653454076 is handled. Duration 155 ms by bot id=7660984376
+2025-08-10 18:00:13,787 [INFO] Update id=653454077 is handled. Duration 469 ms by bot id=7660984376
+2025-08-10 18:00:15,995 [INFO] Update id=653454078 is handled. Duration 171 ms by bot id=7660984376
+2025-08-10 18:00:55,207 [INFO] Polling stopped
+2025-08-10 18:00:55,465 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:00:55,471 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 18:22:37,936 [INFO] ✅ База данных подключена.
+2025-08-10 18:22:37,936 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 18:22:38,762 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 18:22:38,762 [INFO] Start polling
+2025-08-10 18:22:38,951 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:22:45,606 [INFO] Update id=653454079 is handled. Duration 578 ms by bot id=7660984376
+2025-08-10 18:23:13,597 [INFO] Update id=653454080 is handled. Duration 202 ms by bot id=7660984376
+2025-08-10 18:23:22,969 [INFO] Update id=653454081 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:23:27,714 [INFO] Update id=653454082 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:23:29,301 [INFO] Update id=653454083 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 18:23:31,289 [INFO] Update id=653454084 is handled. Duration 219 ms by bot id=7660984376
+2025-08-10 18:23:33,879 [INFO] Update id=653454085 is handled. Duration 375 ms by bot id=7660984376
+2025-08-10 18:23:35,583 [INFO] Update id=653454086 is handled. Duration 125 ms by bot id=7660984376
+2025-08-10 18:23:37,219 [INFO] Update id=653454087 is handled. Duration 296 ms by bot id=7660984376
+2025-08-10 18:23:40,449 [INFO] Update id=653454088 is handled. Duration 78 ms by bot id=7660984376
+2025-08-10 18:23:44,208 [INFO] Update id=653454089 is handled. Duration 61 ms by bot id=7660984376
+2025-08-10 18:23:46,624 [INFO] Update id=653454090 is handled. Duration 77 ms by bot id=7660984376
+2025-08-10 18:23:48,553 [INFO] Update id=653454091 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:23:50,616 [INFO] Update id=653454092 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 18:23:54,398 [INFO] Update id=653454093 is handled. Duration 108 ms by bot id=7660984376
+2025-08-10 18:23:55,940 [INFO] Update id=653454094 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 18:23:57,389 [INFO] Update id=653454095 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 18:24:01,917 [INFO] Update id=653454096 is handled. Duration 280 ms by bot id=7660984376
+2025-08-10 18:24:07,484 [INFO] Update id=653454097 is handled. Duration 92 ms by bot id=7660984376
+2025-08-10 18:24:20,697 [INFO] Polling stopped
+2025-08-10 18:24:20,952 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:24:20,952 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 18:24:39,099 [INFO] ✅ База данных подключена.
+2025-08-10 18:24:39,099 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 18:24:39,925 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 18:24:39,925 [INFO] Start polling
+2025-08-10 18:24:40,122 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:24:45,821 [INFO] Update id=653454098 is handled. Duration 265 ms by bot id=7660984376
+2025-08-10 18:24:51,703 [INFO] Update id=653454099 is handled. Duration 125 ms by bot id=7660984376
+2025-08-10 18:24:54,915 [INFO] Update id=653454100 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:24:56,342 [INFO] Update id=653454101 is handled. Duration 219 ms by bot id=7660984376
+2025-08-10 18:25:02,763 [INFO] Update id=653454102 is handled. Duration 328 ms by bot id=7660984376
+2025-08-10 18:25:03,960 [INFO] Update id=653454103 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:25:05,589 [INFO] Update id=653454104 is handled. Duration 234 ms by bot id=7660984376
+2025-08-10 18:25:10,770 [INFO] Polling stopped
+2025-08-10 18:25:11,027 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:25:11,033 [INFO] 🛑 Бот остановлен вручную.
+2025-08-11 21:01:28,889 [INFO] ✅ База данных подключена.
+2025-08-11 21:01:28,889 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-11 21:01:30,378 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-11 21:01:30,378 [INFO] Start polling
+2025-08-11 21:01:30,571 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:01:35,788 [INFO] Polling stopped
+2025-08-11 21:01:36,046 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:01:36,046 [INFO] 🛑 Бот остановлен вручную.
+2025-08-11 21:01:49,286 [INFO] ✅ База данных подключена.
+2025-08-11 21:01:49,288 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-11 21:01:50,365 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-11 21:01:50,365 [INFO] Start polling
+2025-08-11 21:01:50,557 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:02:10,643 [INFO] Update id=653454105 is handled. Duration 750 ms by bot id=7660984376
+2025-08-11 21:02:24,296 [INFO] Update id=653454106 is handled. Duration 109 ms by bot id=7660984376
+2025-08-11 21:02:32,953 [INFO] Update id=653454107 is handled. Duration 405 ms by bot id=7660984376
+2025-08-11 21:02:39,196 [INFO] Polling stopped
+2025-08-11 21:02:39,465 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:02:39,468 [INFO] 🛑 Бот остановлен вручную.
+2025-08-11 21:08:59,992 [INFO] ✅ База данных подключена.
+2025-08-11 21:08:59,992 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-11 21:09:01,023 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-11 21:09:01,023 [INFO] Start polling
+2025-08-11 21:09:01,228 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:09:06,954 [INFO] Update id=653454108 is handled. Duration 344 ms by bot id=7660984376
+2025-08-11 21:09:10,306 [INFO] Update id=653454109 is handled. Duration 390 ms by bot id=7660984376
+2025-08-11 21:11:11,757 [INFO] Update id=653454110 is handled. Duration 235 ms by bot id=7660984376
+2025-08-11 21:11:15,333 [INFO] Update id=653454111 is handled. Duration 765 ms by bot id=7660984376
+2025-08-11 21:30:26,807 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-11 21:30:26,814 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-12 08:07:47,916 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 08:07:47,985 [WARNING] Sleep for 1.256777 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-08-12 08:07:49,269 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-12 08:07:49,269 [WARNING] Sleep for 1.638502 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-08-12 08:07:50,915 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-12 08:07:50,915 [WARNING] Sleep for 2.236841 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-08-12 08:54:07,263 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-12 08:54:07,265 [WARNING] Sleep for 2.972163 seconds and try again... (tryings = 4, bot id = 7660984376)
+2025-08-12 08:54:10,246 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-12 08:54:10,246 [WARNING] Sleep for 3.757513 seconds and try again... (tryings = 5, bot id = 7660984376)
+2025-08-12 10:04:50,723 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 10:04:50,723 [WARNING] Sleep for 4.922937 seconds and try again... (tryings = 6, bot id = 7660984376)
+2025-08-12 10:05:05,900 [INFO] Connection established (tryings = 7, bot id = 7660984376)
+2025-08-12 10:41:38,271 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 10:41:38,289 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-12 10:41:49,627 [INFO] Connection established (tryings = 1, bot id = 7660984376)
+2025-08-12 11:44:22,300 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 11:44:22,303 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-12 11:44:33,713 [INFO] Connection established (tryings = 1, bot id = 7660984376)
+2025-08-12 17:55:02,990 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 17:55:03,577 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-13 04:13:56,374 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-13 04:13:56,450 [WARNING] Sleep for 1.219533 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-08-13 04:13:57,740 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 04:13:57,741 [WARNING] Sleep for 1.717692 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-08-13 04:13:59,470 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 04:13:59,481 [WARNING] Sleep for 2.373813 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-08-13 05:01:13,079 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 05:01:13,080 [WARNING] Sleep for 2.997142 seconds and try again... (tryings = 4, bot id = 7660984376)
+2025-08-13 10:24:12,591 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:24:12,595 [WARNING] Sleep for 3.856967 seconds and try again... (tryings = 5, bot id = 7660984376)
+2025-08-13 10:24:26,813 [INFO] Connection established (tryings = 6, bot id = 7660984376)
+2025-08-13 10:45:29,453 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-13 10:45:29,493 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-13 10:55:06,064 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-13 10:55:06,077 [WARNING] Sleep for 1.414045 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-08-13 10:55:07,505 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:55:07,505 [WARNING] Sleep for 1.763855 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-08-13 10:55:09,278 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:55:09,279 [WARNING] Sleep for 2.369322 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-08-13 10:55:22,208 [INFO] Connection established (tryings = 4, bot id = 7660984376)
+2025-08-13 11:33:06,241 [INFO] Polling stopped
+2025-08-13 11:33:06,538 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-13 11:33:06,554 [INFO] 🛑 Бот остановлен вручную.
+2025-08-13 11:45:11,798 [INFO] ✅ База данных подключена.
+2025-08-13 11:45:11,799 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-13 11:45:13,831 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-13 11:45:13,832 [INFO] Start polling
+2025-08-13 11:45:13,999 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-13 11:45:20,285 [INFO] Update id=653454112 is handled. Duration 342 ms by bot id=7660984376
+2025-08-13 11:45:24,746 [INFO] Update id=653454113 is handled. Duration 469 ms by bot id=7660984376
+2025-08-13 11:45:27,610 [INFO] Update id=653454114 is handled. Duration 625 ms by bot id=7660984376
+2025-08-13 11:46:21,506 [INFO] Update id=653454115 is handled. Duration 203 ms by bot id=7660984376
+2025-08-13 11:47:30,275 [INFO] Update id=653454116 is handled. Duration 561 ms by bot id=7660984376
+2025-08-13 11:47:31,681 [INFO] Update id=653454117 is handled. Duration 94 ms by bot id=7660984376
+2025-08-13 11:54:33,746 [INFO] Polling stopped
+2025-08-13 11:54:33,799 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2685)
+2025-08-13 11:54:33,799 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-13 11:54:34,004 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-13 11:54:34,004 [INFO] 🛑 Бот остановлен вручную.
+2025-08-14 19:11:26,246 [INFO] ✅ База данных подключена.
+2025-08-14 19:11:26,247 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-14 19:11:27,405 [INFO] 🚀 Бот запускается...
+2025-08-14 19:11:27,406 [INFO] 🌐 Fondy webhook listening at: http://localhost:8080/fondy/webhook
+2025-08-14 19:11:27,406 [INFO] 🤖 Старт поллинга Telegram...
+2025-08-14 19:11:27,407 [INFO] Start polling
+2025-08-14 19:11:27,602 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-14 19:11:55,289 [INFO] Update id=653454118 is handled. Duration 655 ms by bot id=7660984376
+2025-08-14 19:11:57,518 [INFO] Update id=653454119 is handled. Duration 94 ms by bot id=7660984376
+2025-08-14 19:12:09,598 [INFO] Update id=653454120 is handled. Duration 405 ms by bot id=7660984376
+2025-08-14 19:12:57,640 [INFO] Update id=653454121 is handled. Duration 188 ms by bot id=7660984376
+2025-08-14 19:13:02,060 [INFO] Update id=653454122 is handled. Duration 94 ms by bot id=7660984376
+2025-08-14 19:13:05,161 [INFO] Update id=653454123 is handled. Duration 92 ms by bot id=7660984376
+2025-08-14 19:13:07,306 [INFO] Update id=653454124 is handled. Duration 125 ms by bot id=7660984376
+2025-08-14 19:13:10,291 [INFO] Update id=653454125 is handled. Duration 375 ms by bot id=7660984376
+2025-08-14 19:13:12,424 [INFO] Update id=653454126 is handled. Duration 109 ms by bot id=7660984376
+2025-08-14 19:13:16,370 [INFO] Update id=653454127 is handled. Duration 78 ms by bot id=7660984376
+2025-08-14 19:13:18,733 [INFO] Update id=653454128 is handled. Duration 342 ms by bot id=7660984376
+2025-08-14 19:13:21,115 [INFO] Update id=653454129 is handled. Duration 109 ms by bot id=7660984376
+2025-08-14 19:13:27,320 [INFO] Update id=653454130 is handled. Duration 657 ms by bot id=7660984376
+2025-08-14 19:13:31,807 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 19:13:33,240 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 19:13:33,959 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 19:13:34,047 [INFO] Update id=653454131 is handled. Duration 5000 ms by bot id=7660984376
+2025-08-14 19:13:41,535 [INFO] Update id=653454132 is handled. Duration 92 ms by bot id=7660984376
+2025-08-14 19:13:46,641 [INFO] Update id=653454133 is handled. Duration 94 ms by bot id=7660984376
+2025-08-14 19:13:47,661 [INFO] Update id=653454134 is handled. Duration 108 ms by bot id=7660984376
+2025-08-14 19:13:51,359 [INFO] Update id=653454135 is handled. Duration 250 ms by bot id=7660984376
+2025-08-14 19:13:55,350 [INFO] Update id=653454136 is handled. Duration 109 ms by bot id=7660984376
+2025-08-14 19:14:01,287 [INFO] Polling stopped
+2025-08-14 19:14:01,554 [INFO] 🧹 Поллинг завершён. Бот остановлен.
+2025-08-14 19:14:01,555 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-14 19:14:01,559 [INFO] 🛑 Бот остановлен вручную.
+2025-08-14 19:14:22,780 [INFO] ✅ База данных подключена.
+2025-08-14 19:14:22,780 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-14 19:14:23,585 [INFO] 🚀 Бот запускается...
+2025-08-14 19:14:23,601 [INFO] 🌐 Fondy webhook listening at: http://localhost:8080/fondy/webhook
+2025-08-14 19:14:23,601 [INFO] 🤖 Старт поллинга Telegram...
+2025-08-14 19:14:23,601 [INFO] Start polling
+2025-08-14 19:14:23,761 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-14 19:14:31,672 [INFO] Update id=653454137 is handled. Duration 452 ms by bot id=7660984376
+2025-08-14 19:14:33,776 [INFO] Update id=653454138 is handled. Duration 141 ms by bot id=7660984376
+2025-08-14 19:14:36,445 [INFO] Update id=653454139 is handled. Duration 94 ms by bot id=7660984376
+2025-08-14 19:14:39,791 [INFO] Update id=653454140 is handled. Duration 92 ms by bot id=7660984376
+2025-08-14 19:14:42,191 [INFO] Update id=653454141 is handled. Duration 219 ms by bot id=7660984376
+2025-08-14 19:14:43,575 [INFO] Update id=653454142 is handled. Duration 78 ms by bot id=7660984376
+2025-08-14 19:14:46,443 [INFO] Update id=653454143 is handled. Duration 688 ms by bot id=7660984376
+2025-08-14 19:14:49,404 [INFO] Update id=653454144 is handled. Duration 547 ms by bot id=7660984376
+2025-08-14 19:14:57,068 [INFO] Update id=653454145 is handled. Duration 405 ms by bot id=7660984376
+2025-08-14 19:15:04,432 [INFO] Polling stopped
+2025-08-14 19:15:04,692 [INFO] 🧹 Поллинг завершён. Бот остановлен.
+2025-08-14 19:15:04,693 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-14 19:15:04,696 [INFO] 🛑 Бот остановлен вручную.
