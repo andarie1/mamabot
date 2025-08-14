@@ -1,0 +1,1963 @@
+2025-07-02 19:27:09,252 [INFO] root: 📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.
+2025-07-02 19:27:09,255 [INFO] root: 🤖 Бот запущен и готов к работе!
+2025-07-02 19:27:09,255 [INFO] aiogram.dispatcher: Start polling
+2025-07-02 19:27:09,429 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-02 19:27:18,553 [INFO] aiogram.event: Update id=653453749 is handled. Duration 452 ms by bot id=7660984376
+2025-07-02 19:27:36,290 [INFO] aiogram.event: Update id=653453750 is handled. Duration 265 ms by bot id=7660984376
+2025-07-02 19:27:45,658 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-02 19:27:45,754 [INFO] aiogram.event: Update id=653453751 is handled. Duration 3766 ms by bot id=7660984376
+2025-07-02 19:28:07,169 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-02 19:28:07,294 [INFO] aiogram.event: Update id=653453752 is handled. Duration 5000 ms by bot id=7660984376
+2025-07-02 19:28:28,095 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-02 19:28:28,187 [INFO] aiogram.event: Update id=653453753 is handled. Duration 1515 ms by bot id=7660984376
+2025-07-02 19:28:38,275 [INFO] aiogram.event: Update id=653453754 is handled. Duration 312 ms by bot id=7660984376
+2025-07-02 19:28:51,279 [INFO] aiogram.dispatcher: Polling stopped
+2025-07-02 19:28:51,518 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:12:59,098 [ERROR] root: Файл базы данных не найден: db/your_database.db
+2025-07-08 18:13:51,447 [INFO] root: 📚 Успешное подключение к базе данных!
+2025-07-08 18:13:52,807 [INFO] root: 📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.
+2025-07-08 18:13:52,823 [INFO] root: 🤖 Бот запущен и готов к работе!
+2025-07-08 18:13:52,823 [INFO] aiogram.dispatcher: Start polling
+2025-07-08 18:13:53,126 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:14:53,362 [INFO] aiogram.event: Update id=653453756 is handled. Duration 578 ms by bot id=7660984376
+2025-07-08 18:14:58,069 [INFO] aiogram.event: Update id=653453757 is handled. Duration 156 ms by bot id=7660984376
+2025-07-08 18:15:19,147 [INFO] aiogram.dispatcher: Polling stopped
+2025-07-08 18:15:19,401 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:27:32,348 [INFO] root: 📚 Успешное подключение к базе данных!
+2025-07-08 18:27:33,544 [INFO] root: 📂 Папки для PDF и аудио готовы: assets/pdf, assets/voices.
+2025-07-08 18:27:33,545 [INFO] root: 🤖 Бот запущен и готов к работе!
+2025-07-08 18:27:33,546 [INFO] aiogram.dispatcher: Start polling
+2025-07-08 18:27:33,709 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:27:43,001 [INFO] aiogram.event: Update id=653453758 is handled. Duration 514 ms by bot id=7660984376
+2025-07-08 18:28:15,935 [INFO] aiogram.event: Update id=653453759 is handled. Duration 202 ms by bot id=7660984376
+2025-07-08 18:28:20,449 [INFO] aiogram.event: Update id=653453760 is handled. Duration 187 ms by bot id=7660984376
+2025-07-08 18:28:25,559 [INFO] aiogram.event: Update id=653453761 is handled. Duration 250 ms by bot id=7660984376
+2025-07-08 18:28:43,493 [INFO] aiogram.dispatcher: Polling stopped
+2025-07-08 18:28:43,750 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:34:57,846 [INFO] root: ✅ Успешное подключение к базе данных!
+2025-07-08 18:34:57,846 [INFO] root: 📂 Папки подготовлены: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 18:34:58,672 [INFO] root: 🚀 Бот успешно запущен и готов к работе!
+2025-07-08 18:34:58,676 [INFO] aiogram.dispatcher: Start polling
+2025-07-08 18:34:58,832 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:35:03,925 [INFO] aiogram.event: Update id=653453762 is handled. Duration 280 ms by bot id=7660984376
+2025-07-08 18:35:07,402 [INFO] aiogram.event: Update id=653453763 is handled. Duration 406 ms by bot id=7660984376
+2025-07-08 18:35:11,664 [INFO] aiogram.event: Update id=653453764 is handled. Duration 125 ms by bot id=7660984376
+2025-07-08 18:35:14,436 [INFO] aiogram.event: Update id=653453765 is handled. Duration 188 ms by bot id=7660984376
+2025-07-08 18:35:15,979 [INFO] aiogram.event: Update id=653453766 is handled. Duration 188 ms by bot id=7660984376
+2025-07-08 18:42:06,968 [INFO] aiogram.dispatcher: Polling stopped
+2025-07-08 18:42:07,225 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:51:20,141 [INFO] __main__: ✅ Успешное подключение к базе данных!
+2025-07-08 18:51:20,141 [INFO] __main__: 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 18:51:20,966 [INFO] __main__: 🚀 Бот запущен и готов к работе!
+2025-07-08 18:51:20,966 [INFO] aiogram.dispatcher: Start polling
+2025-07-08 18:51:21,154 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:51:48,674 [INFO] aiogram.event: Update id=653453767 is handled. Duration 561 ms by bot id=7660984376
+2025-07-08 18:51:57,962 [INFO] aiogram.event: Update id=653453768 is handled. Duration 219 ms by bot id=7660984376
+2025-07-08 18:52:01,764 [INFO] aiogram.event: Update id=653453769 is handled. Duration 219 ms by bot id=7660984376
+2025-07-08 18:52:10,751 [INFO] aiogram.event: Update id=653453770 is handled. Duration 218 ms by bot id=7660984376
+2025-07-08 18:53:55,366 [INFO] aiogram.dispatcher: Polling stopped
+2025-07-08 18:53:55,620 [WARNING] __main__: ⛔ Получен сигнал отмены (CancelledError)
+2025-07-08 18:53:55,620 [INFO] __main__: 🧹 Сессия бота закрыта, бот завершает работу.
+2025-07-08 18:53:55,621 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:55:42,211 [INFO] __main__: ✅ Успешное подключение к базе данных!
+2025-07-08 18:55:42,211 [INFO] __main__: 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 18:55:43,045 [INFO] __main__: 🚀 Бот запущен и готов к работе!
+2025-07-08 18:55:43,045 [INFO] aiogram.dispatcher: Start polling
+2025-07-08 18:55:43,201 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 18:55:59,719 [INFO] aiogram.event: Update id=653453771 is handled. Duration 483 ms by bot id=7660984376
+2025-07-08 18:56:02,924 [INFO] aiogram.event: Update id=653453772 is handled. Duration 77 ms by bot id=7660984376
+2025-07-08 18:56:05,901 [INFO] aiogram.event: Update id=653453773 is handled. Duration 546 ms by bot id=7660984376
+2025-07-08 18:56:14,587 [INFO] aiogram.dispatcher: Polling stopped
+2025-07-08 18:56:14,843 [WARNING] __main__: ⛔ Получен сигнал отмены (CancelledError)
+2025-07-08 18:56:14,843 [INFO] __main__: 🧹 Сессия бота закрыта, бот завершает работу.
+2025-07-08 18:56:14,843 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 19:56:34,308 [INFO] __main__: ✅ Успешное подключение к базе данных!
+2025-07-08 19:56:34,308 [INFO] __main__: 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 19:56:35,194 [INFO] __main__: 🚀 Бот запущен и готов к работе!
+2025-07-08 19:56:35,201 [INFO] aiogram.dispatcher: Start polling
+2025-07-08 19:56:35,383 [INFO] aiogram.dispatcher: Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 19:56:48,500 [INFO] aiogram.event: Update id=653453774 is handled. Duration 608 ms by bot id=7660984376
+2025-07-08 19:56:50,762 [INFO] aiogram.event: Update id=653453775 is handled. Duration 141 ms by bot id=7660984376
+2025-07-08 19:56:53,256 [INFO] aiogram.event: Update id=653453776 is handled. Duration 437 ms by bot id=7660984376
+2025-07-08 19:57:00,637 [INFO] aiogram.event: Update id=653453777 is handled. Duration 655 ms by bot id=7660984376
+2025-07-08 20:17:39,714 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-08 20:17:39,722 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-08 20:17:51,008 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 7660984376)
+2025-07-08 20:41:43,466 [INFO] aiogram.dispatcher: Polling stopped
+2025-07-08 20:41:43,737 [WARNING] __main__: ⛔ Получен сигнал отмены (CancelledError)
+2025-07-08 20:41:43,737 [INFO] __main__: 🧹 Сессия бота закрыта, бот завершает работу.
+2025-07-08 20:41:43,737 [INFO] aiogram.dispatcher: Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 20:41:48,603 [INFO] ✅ База данных подключена.
+2025-07-08 20:41:48,603 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 20:41:49,450 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 20:41:49,450 [INFO] Start polling
+2025-07-08 20:41:49,636 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 20:41:58,318 [INFO] Polling stopped
+2025-07-08 20:41:58,574 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 20:41:58,574 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 20:43:11,949 [INFO] ✅ База данных подключена.
+2025-07-08 20:43:11,949 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 20:43:12,771 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 20:43:12,771 [INFO] Start polling
+2025-07-08 20:43:12,947 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 20:43:30,619 [INFO] Update id=653453778 is handled. Duration 468 ms by bot id=7660984376
+2025-07-08 20:43:34,119 [INFO] Update id=653453779 is handled. Duration 390 ms by bot id=7660984376
+2025-07-08 20:43:51,530 [INFO] Update id=653453780 is handled. Duration 186 ms by bot id=7660984376
+2025-07-08 20:44:01,049 [INFO] Polling stopped
+2025-07-08 20:44:01,303 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 20:44:01,306 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 20:52:46,450 [INFO] ✅ База данных подключена.
+2025-07-08 20:52:46,450 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 20:52:47,284 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 20:52:47,290 [INFO] Start polling
+2025-07-08 20:52:47,451 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 20:52:54,366 [INFO] Update id=653453781 is handled. Duration 375 ms by bot id=7660984376
+2025-07-08 20:52:56,883 [INFO] Update id=653453782 is handled. Duration 62 ms by bot id=7660984376
+2025-07-08 20:53:00,298 [INFO] Update id=653453783 is handled. Duration 219 ms by bot id=7660984376
+2025-07-08 20:53:11,556 [INFO] Update id=653453784 is handled. Duration 77 ms by bot id=7660984376
+2025-07-08 20:53:49,592 [INFO] Update id=653453785 is handled. Duration 188 ms by bot id=7660984376
+2025-07-08 20:53:58,600 [INFO] Update id=653453786 is handled. Duration 77 ms by bot id=7660984376
+2025-07-08 20:54:00,681 [INFO] Update id=653453787 is handled. Duration 297 ms by bot id=7660984376
+2025-07-08 20:55:48,118 [INFO] Polling stopped
+2025-07-08 20:55:48,374 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 20:55:48,378 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 20:57:57,977 [INFO] ✅ База данных подключена.
+2025-07-08 20:57:57,977 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 20:57:58,815 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 20:57:58,815 [INFO] Start polling
+2025-07-08 20:57:58,991 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 20:58:04,380 [INFO] Update id=653453788 is handled. Duration 344 ms by bot id=7660984376
+2025-07-08 20:58:08,237 [INFO] Update id=653453789 is handled. Duration 359 ms by bot id=7660984376
+2025-07-08 20:58:14,719 [INFO] Update id=653453790 is handled. Duration 577 ms by bot id=7660984376
+2025-07-08 20:58:42,047 [INFO] Update id=653453791 is handled. Duration 484 ms by bot id=7660984376
+2025-07-08 20:58:45,753 [INFO] Update id=653453792 is handled. Duration 94 ms by bot id=7660984376
+2025-07-08 21:01:41,571 [INFO] Polling stopped
+2025-07-08 21:01:41,832 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:01:41,837 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 21:02:09,510 [INFO] ✅ База данных подключена.
+2025-07-08 21:02:09,511 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 21:02:10,498 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 21:02:10,498 [INFO] Start polling
+2025-07-08 21:02:10,670 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:02:19,833 [INFO] Update id=653453793 is handled. Duration 500 ms by bot id=7660984376
+2025-07-08 21:02:22,243 [INFO] Update id=653453794 is handled. Duration 78 ms by bot id=7660984376
+2025-07-08 21:02:25,179 [INFO] Update id=653453795 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-08 21:02:25,179 [ERROR] Cause exception while process update id=653453795 by bot id=7660984376
+OperationalError: no such column: age_group
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 108, in show_guides
+    items = get_library_items_by_type_and_age("guide", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 68, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_group
+2025-07-08 21:02:31,162 [INFO] Update id=653453796 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-08 21:02:31,162 [ERROR] Cause exception while process update id=653453796 by bot id=7660984376
+OperationalError: no such column: age_group
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 88, in show_checklists
+    items = get_library_items_by_type_and_age("checklist", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 68, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_group
+2025-07-08 21:02:41,573 [INFO] Update id=653453797 is handled. Duration 530 ms by bot id=7660984376
+2025-07-08 21:02:53,935 [INFO] Polling stopped
+2025-07-08 21:02:54,197 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:02:54,197 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 21:04:13,601 [INFO] ✅ База данных подключена.
+2025-07-08 21:04:13,601 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 21:04:14,537 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 21:04:14,537 [INFO] Start polling
+2025-07-08 21:04:14,728 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:04:23,485 [INFO] Update id=653453798 is handled. Duration 203 ms by bot id=7660984376
+2025-07-08 21:04:24,986 [INFO] Update id=653453799 is handled. Duration 78 ms by bot id=7660984376
+2025-07-08 21:04:27,476 [INFO] Update id=653453800 is handled. Duration 77 ms by bot id=7660984376
+2025-07-08 21:04:40,048 [INFO] Polling stopped
+2025-07-08 21:04:40,304 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:04:40,307 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 21:07:56,355 [INFO] ✅ База данных подключена.
+2025-07-08 21:07:56,355 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 21:07:57,185 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 21:07:57,185 [INFO] Start polling
+2025-07-08 21:07:57,355 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:08:15,247 [INFO] Update id=653453801 is handled. Duration 437 ms by bot id=7660984376
+2025-07-08 21:08:17,844 [INFO] Update id=653453802 is handled. Duration 266 ms by bot id=7660984376
+2025-07-08 21:08:21,388 [INFO] Update id=653453803 is handled. Duration 94 ms by bot id=7660984376
+2025-07-08 21:08:23,606 [INFO] Update id=653453804 is handled. Duration 78 ms by bot id=7660984376
+2025-07-08 21:09:46,665 [INFO] Polling stopped
+2025-07-08 21:09:46,922 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:09:46,925 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 21:09:51,373 [INFO] ✅ База данных подключена.
+2025-07-08 21:09:51,374 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 21:09:52,209 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 21:09:52,210 [INFO] Start polling
+2025-07-08 21:09:52,377 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:09:55,527 [INFO] Update id=653453805 is handled. Duration 264 ms by bot id=7660984376
+2025-07-08 21:09:57,926 [INFO] Update id=653453806 is handled. Duration 312 ms by bot id=7660984376
+2025-07-08 21:10:00,033 [INFO] Update id=653453807 is handled. Duration 77 ms by bot id=7660984376
+2025-07-08 21:10:02,216 [INFO] Update id=653453808 is handled. Duration 94 ms by bot id=7660984376
+2025-07-08 21:10:07,160 [INFO] Update id=653453809 is handled. Duration 327 ms by bot id=7660984376
+2025-07-08 21:11:21,325 [INFO] Polling stopped
+2025-07-08 21:11:21,586 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:11:21,588 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 21:42:25,264 [INFO] ✅ База данных подключена.
+2025-07-08 21:42:25,280 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 21:42:26,489 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 21:42:26,489 [INFO] Start polling
+2025-07-08 21:42:26,659 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:42:32,902 [INFO] Update id=653453810 is handled. Duration 186 ms by bot id=7660984376
+2025-07-08 21:42:34,430 [INFO] Update id=653453811 is handled. Duration 94 ms by bot id=7660984376
+2025-07-08 21:42:36,554 [INFO] Update id=653453812 is handled. Duration 62 ms by bot id=7660984376
+2025-07-08 21:42:40,756 [INFO] Update id=653453813 is handled. Duration 77 ms by bot id=7660984376
+2025-07-08 21:42:46,057 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-08 21:42:46,182 [INFO] Update id=653453814 is handled. Duration 3343 ms by bot id=7660984376
+2025-07-08 21:42:53,472 [INFO] Update id=653453815 is handled. Duration 219 ms by bot id=7660984376
+2025-07-08 21:42:56,377 [INFO] Update id=653453816 is handled. Duration 297 ms by bot id=7660984376
+2025-07-08 21:43:01,857 [INFO] Update id=653453817 is handled. Duration 78 ms by bot id=7660984376
+2025-07-08 21:43:10,171 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-08 21:43:10,293 [INFO] Update id=653453818 is handled. Duration 4344 ms by bot id=7660984376
+2025-07-08 21:43:18,620 [INFO] Update id=653453819 is handled. Duration 156 ms by bot id=7660984376
+2025-07-08 21:43:20,348 [INFO] Update id=653453820 is handled. Duration 77 ms by bot id=7660984376
+2025-07-08 21:43:24,861 [INFO] Update id=653453821 is handled. Duration 78 ms by bot id=7660984376
+2025-07-08 21:43:29,482 [INFO] Update id=653453822 is handled. Duration 78 ms by bot id=7660984376
+2025-07-08 21:43:32,071 [INFO] Update id=653453823 is handled. Duration 250 ms by bot id=7660984376
+2025-07-08 21:43:38,882 [INFO] Update id=653453824 is handled. Duration 77 ms by bot id=7660984376
+2025-07-08 21:43:46,971 [INFO] Update id=653453825 is handled. Duration 281 ms by bot id=7660984376
+2025-07-08 21:43:52,395 [INFO] Update id=653453826 is handled. Duration 78 ms by bot id=7660984376
+2025-07-08 21:43:54,918 [INFO] Update id=653453827 is not handled. Duration 16 ms by bot id=7660984376
+2025-07-08 21:43:54,918 [ERROR] Cause exception while process update id=653453827 by bot id=7660984376
+OperationalError: no such column: age_group
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 88, in show_checklists
+    items = get_library_items_by_type_and_age("checklist", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 68, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_group
+2025-07-08 21:44:03,708 [INFO] Update id=653453828 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-08 21:44:03,708 [ERROR] Cause exception while process update id=653453828 by bot id=7660984376
+OperationalError: no such column: age_group
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 108, in show_guides
+    items = get_library_items_by_type_and_age("guide", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 68, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_group
+2025-07-08 21:44:11,357 [INFO] Update id=653453829 is handled. Duration 750 ms by bot id=7660984376
+2025-07-08 21:47:57,380 [INFO] Polling stopped
+2025-07-08 21:47:57,636 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:47:57,636 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 21:51:38,074 [INFO] ✅ База данных подключена.
+2025-07-08 21:51:38,074 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 21:51:38,914 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 21:51:38,924 [INFO] Start polling
+2025-07-08 21:51:39,106 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:51:44,865 [INFO] Update id=653453830 is handled. Duration 484 ms by bot id=7660984376
+2025-07-08 21:51:52,924 [INFO] Update id=653453831 is handled. Duration 125 ms by bot id=7660984376
+2025-07-08 21:51:54,562 [INFO] Update id=653453832 is not handled. Duration 15 ms by bot id=7660984376
+2025-07-08 21:51:54,563 [ERROR] Cause exception while process update id=653453832 by bot id=7660984376
+OperationalError: no such column: age_group
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 88, in show_checklists
+    items = get_library_items_by_type_and_age("checklist", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 68, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_group
+2025-07-08 21:51:57,800 [INFO] Update id=653453833 is not handled. Duration 16 ms by bot id=7660984376
+2025-07-08 21:51:57,801 [ERROR] Cause exception while process update id=653453833 by bot id=7660984376
+OperationalError: no such column: age_group
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 108, in show_guides
+    items = get_library_items_by_type_and_age("guide", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 68, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_group
+2025-07-08 21:52:54,531 [INFO] Polling stopped
+2025-07-08 21:52:54,787 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:52:54,787 [INFO] 🛑 Бот остановлен вручную.
+2025-07-08 21:52:58,896 [INFO] ✅ База данных подключена.
+2025-07-08 21:52:58,896 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-08 21:52:59,694 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-08 21:52:59,694 [INFO] Start polling
+2025-07-08 21:52:59,863 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:53:03,175 [INFO] Update id=653453834 is handled. Duration 469 ms by bot id=7660984376
+2025-07-08 21:53:05,239 [INFO] Update id=653453835 is handled. Duration 78 ms by bot id=7660984376
+2025-07-08 21:53:06,658 [INFO] Update id=653453836 is handled. Duration 125 ms by bot id=7660984376
+2025-07-08 21:53:14,291 [INFO] Update id=653453837 is handled. Duration 234 ms by bot id=7660984376
+2025-07-08 21:53:45,321 [INFO] Update id=653453838 is handled. Duration 452 ms by bot id=7660984376
+2025-07-08 21:56:27,794 [INFO] Polling stopped
+2025-07-08 21:56:28,050 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-08 21:56:28,052 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 13:18:07,556 [INFO] ✅ База данных подключена.
+2025-07-12 13:18:07,557 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 13:18:08,873 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 13:18:08,873 [INFO] Start polling
+2025-07-12 13:18:09,085 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:18:38,389 [INFO] Update id=653453839 is handled. Duration 218 ms by bot id=7660984376
+2025-07-12 13:18:42,838 [INFO] Update id=653453840 is handled. Duration 155 ms by bot id=7660984376
+2025-07-12 13:18:55,117 [INFO] Update id=653453841 is handled. Duration 234 ms by bot id=7660984376
+2025-07-12 13:19:36,896 [INFO] Update id=653453842 is handled. Duration 313 ms by bot id=7660984376
+2025-07-12 13:19:44,957 [INFO] Update id=653453843 is handled. Duration 593 ms by bot id=7660984376
+2025-07-12 13:19:58,632 [INFO] Update id=653453844 is handled. Duration 186 ms by bot id=7660984376
+2025-07-12 13:20:00,286 [INFO] Update id=653453845 is handled. Duration 78 ms by bot id=7660984376
+2025-07-12 13:20:02,218 [INFO] Update id=653453846 is handled. Duration 139 ms by bot id=7660984376
+2025-07-12 13:20:18,103 [INFO] Update id=653453847 is handled. Duration 484 ms by bot id=7660984376
+2025-07-12 13:20:23,640 [INFO] Polling stopped
+2025-07-12 13:20:23,908 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:20:23,910 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 13:48:04,455 [INFO] ✅ База данных подключена.
+2025-07-12 13:48:04,455 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 13:48:05,317 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 13:48:05,325 [INFO] Start polling
+2025-07-12 13:48:05,473 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:48:05,745 [INFO] Update id=653453848 is handled. Duration 202 ms by bot id=7660984376
+2025-07-12 13:48:15,120 [INFO] Update id=653453849 is handled. Duration 500 ms by bot id=7660984376
+2025-07-12 13:48:16,227 [INFO] Update id=653453850 is handled. Duration 155 ms by bot id=7660984376
+2025-07-12 13:48:17,675 [INFO] Update id=653453851 is handled. Duration 172 ms by bot id=7660984376
+2025-07-12 13:48:21,607 [INFO] Update id=653453852 is handled. Duration 125 ms by bot id=7660984376
+2025-07-12 13:48:29,837 [INFO] Polling stopped
+2025-07-12 13:48:30,091 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:48:30,094 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 13:51:32,227 [INFO] ✅ База данных подключена.
+2025-07-12 13:51:32,227 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 13:51:33,015 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 13:51:33,015 [INFO] Start polling
+2025-07-12 13:51:33,174 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:51:42,346 [INFO] Update id=653453853 is handled. Duration 437 ms by bot id=7660984376
+2025-07-12 13:51:43,627 [INFO] Update id=653453854 is handled. Duration 77 ms by bot id=7660984376
+2025-07-12 13:51:45,584 [INFO] Update id=653453855 is handled. Duration 155 ms by bot id=7660984376
+2025-07-12 13:51:49,495 [INFO] Update id=653453856 is handled. Duration 77 ms by bot id=7660984376
+2025-07-12 13:54:10,801 [INFO] Polling stopped
+2025-07-12 13:54:11,064 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:54:11,064 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 13:55:46,993 [INFO] ✅ База данных подключена.
+2025-07-12 13:55:46,993 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 13:55:47,850 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 13:55:47,850 [INFO] Start polling
+2025-07-12 13:55:48,052 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 13:55:52,657 [INFO] Update id=653453857 is handled. Duration 718 ms by bot id=7660984376
+2025-07-12 13:55:55,025 [INFO] Update id=653453858 is handled. Duration 77 ms by bot id=7660984376
+2025-07-12 13:55:57,077 [INFO] Update id=653453859 is handled. Duration 219 ms by bot id=7660984376
+2025-07-12 13:55:57,358 [INFO] Update id=653453860 is handled. Duration 187 ms by bot id=7660984376
+2025-07-12 13:56:06,388 [INFO] Update id=653453861 is handled. Duration 93 ms by bot id=7660984376
+2025-07-12 13:56:26,004 [INFO] Update id=653453862 is handled. Duration 483 ms by bot id=7660984376
+2025-07-12 14:04:43,157 [INFO] Polling stopped
+2025-07-12 14:04:43,418 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 14:04:43,421 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 22:30:12,032 [INFO] ✅ База данных подключена.
+2025-07-12 22:30:12,033 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 22:30:13,237 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 22:30:13,238 [INFO] Start polling
+2025-07-12 22:30:13,442 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 22:31:35,866 [INFO] Update id=653453863 is handled. Duration 250 ms by bot id=7660984376
+2025-07-12 22:31:38,226 [INFO] Update id=653453864 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-12 22:31:38,226 [ERROR] Cause exception while process update id=653453864 by bot id=7660984376
+OperationalError: no such column: age_range
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 128, in show_guides
+    items = get_library_items_by_type_and_age("guide", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 74, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_range
+2025-07-12 22:31:44,739 [INFO] Update id=653453865 is not handled. Duration 16 ms by bot id=7660984376
+2025-07-12 22:31:44,740 [ERROR] Cause exception while process update id=653453865 by bot id=7660984376
+OperationalError: no such column: age_range
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 107, in show_checklists
+    items = get_library_items_by_type_and_age("checklist", age_range)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\library.py", line 74, in get_library_items_by_type_and_age
+    cursor.execute(
+sqlite3.OperationalError: no such column: age_range
+2025-07-12 22:32:28,121 [INFO] Polling stopped
+2025-07-12 22:32:28,381 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 22:32:28,385 [INFO] 🛑 Бот остановлен вручную.
+2025-07-12 22:34:39,719 [INFO] ✅ База данных подключена.
+2025-07-12 22:34:39,719 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-12 22:34:40,534 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-12 22:34:40,534 [INFO] Start polling
+2025-07-12 22:34:40,725 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 22:34:44,654 [INFO] Update id=653453866 is handled. Duration 546 ms by bot id=7660984376
+2025-07-12 22:34:47,108 [INFO] Update id=653453867 is handled. Duration 94 ms by bot id=7660984376
+2025-07-12 22:34:52,325 [INFO] Update id=653453868 is handled. Duration 328 ms by bot id=7660984376
+2025-07-12 22:34:58,097 [INFO] Update id=653453869 is handled. Duration 250 ms by bot id=7660984376
+2025-07-12 22:35:12,260 [INFO] Update id=653453870 is handled. Duration 296 ms by bot id=7660984376
+2025-07-12 22:35:48,508 [INFO] Polling stopped
+2025-07-12 22:35:48,766 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-12 22:35:48,767 [INFO] 🛑 Бот остановлен вручную.
+2025-07-15 14:51:35,934 [INFO] ✅ База данных подключена.
+2025-07-15 14:51:35,934 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-15 14:51:37,326 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-15 14:51:37,326 [INFO] Start polling
+2025-07-15 14:51:37,549 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-15 14:53:25,774 [INFO] Update id=653453871 is handled. Duration 764 ms by bot id=7660984376
+2025-07-15 14:53:54,746 [INFO] Update id=653453872 is handled. Duration 297 ms by bot id=7660984376
+2025-07-15 14:53:59,977 [INFO] Update id=653453873 is handled. Duration 77 ms by bot id=7660984376
+2025-07-15 14:54:02,420 [INFO] Update id=653453874 is handled. Duration 296 ms by bot id=7660984376
+2025-07-15 14:54:05,178 [INFO] Update id=653453875 is handled. Duration 264 ms by bot id=7660984376
+2025-07-15 14:54:07,028 [INFO] Update id=653453876 is handled. Duration 297 ms by bot id=7660984376
+2025-07-15 14:54:12,185 [INFO] Update id=653453877 is not handled. Duration 16 ms by bot id=7660984376
+2025-07-15 14:54:19,955 [INFO] Update id=653453878 is handled. Duration 187 ms by bot id=7660984376
+2025-07-15 14:54:27,410 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-15 14:54:27,609 [INFO] Update id=653453879 is handled. Duration 3577 ms by bot id=7660984376
+2025-07-15 14:54:36,460 [INFO] Update id=653453880 is handled. Duration 656 ms by bot id=7660984376
+2025-07-15 14:54:37,860 [INFO] Update id=653453881 is handled. Duration 108 ms by bot id=7660984376
+2025-07-15 14:54:40,269 [INFO] Update id=653453882 is handled. Duration 281 ms by bot id=7660984376
+2025-07-15 14:55:02,968 [INFO] Update id=653453883 is handled. Duration 639 ms by bot id=7660984376
+2025-07-15 14:55:36,073 [INFO] Update id=653453884 is handled. Duration 360 ms by bot id=7660984376
+2025-07-15 14:55:43,056 [INFO] Update id=653453885 is handled. Duration 1266 ms by bot id=7660984376
+2025-07-15 14:56:11,610 [INFO] Update id=653453886 is handled. Duration 2483 ms by bot id=7660984376
+2025-07-15 14:56:16,545 [INFO] Update id=653453887 is handled. Duration 1264 ms by bot id=7660984376
+2025-07-15 14:58:25,529 [INFO] Polling stopped
+2025-07-15 14:58:25,787 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-15 14:58:25,791 [INFO] 🛑 Бот остановлен вручную.
+2025-07-17 19:03:52,086 [INFO] ✅ База данных подключена.
+2025-07-17 19:03:52,086 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-17 19:03:53,290 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-17 19:03:53,290 [INFO] Start polling
+2025-07-17 19:03:53,528 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-17 19:05:38,856 [INFO] Update id=653453888 is handled. Duration 485 ms by bot id=7660984376
+2025-07-17 19:05:46,607 [INFO] Update id=653453889 is handled. Duration 327 ms by bot id=7660984376
+2025-07-17 19:05:50,330 [INFO] Update id=653453890 is handled. Duration 312 ms by bot id=7660984376
+2025-07-17 19:05:59,205 [INFO] Update id=653453891 is handled. Duration 453 ms by bot id=7660984376
+2025-07-17 19:06:28,183 [INFO] Update id=653453892 is handled. Duration 766 ms by bot id=7660984376
+2025-07-17 19:06:50,701 [INFO] Update id=653453893 is handled. Duration 2500 ms by bot id=7660984376
+2025-07-17 19:07:56,600 [INFO] Update id=653453894 is handled. Duration 750 ms by bot id=7660984376
+2025-07-17 19:08:29,016 [INFO] Update id=653453895 is handled. Duration 468 ms by bot id=7660984376
+2025-07-17 19:09:50,555 [INFO] Polling stopped
+2025-07-17 19:09:50,809 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-17 19:09:50,809 [INFO] 🛑 Бот остановлен вручную.
+2025-07-17 19:19:35,524 [INFO] ✅ База данных подключена.
+2025-07-17 19:19:35,524 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-17 19:19:36,552 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-17 19:19:36,552 [INFO] Start polling
+2025-07-17 19:19:36,745 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-17 19:19:43,633 [INFO] Update id=653453896 is handled. Duration 421 ms by bot id=7660984376
+2025-07-17 19:19:46,325 [INFO] Update id=653453897 is handled. Duration 329 ms by bot id=7660984376
+2025-07-17 19:57:53,358 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-17 19:57:53,370 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-18 03:30:37,453 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-18 03:30:37,519 [WARNING] Sleep for 1.406003 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-07-18 11:36:46,732 [INFO] Connection established (tryings = 2, bot id = 7660984376)
+2025-07-18 12:51:09,361 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-18 12:51:10,031 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-18 19:51:39,223 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-18 19:51:39,282 [WARNING] Sleep for 1.353360 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-07-18 19:51:40,692 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-18 19:51:40,696 [WARNING] Sleep for 1.828881 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-07-18 19:51:42,539 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-18 19:51:42,539 [WARNING] Sleep for 2.240935 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-07-18 21:38:22,917 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-18 21:38:22,943 [WARNING] Sleep for 2.915220 seconds and try again... (tryings = 4, bot id = 7660984376)
+2025-07-18 21:38:25,944 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Программа на вашем хост-компьютере разорвала установленное подключение]
+2025-07-18 21:38:25,944 [WARNING] Sleep for 3.733686 seconds and try again... (tryings = 5, bot id = 7660984376)
+2025-07-19 18:17:37,029 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-19 18:17:37,103 [WARNING] Sleep for 4.999601 seconds and try again... (tryings = 6, bot id = 7660984376)
+2025-07-19 18:17:52,517 [INFO] Connection established (tryings = 7, bot id = 7660984376)
+2025-07-19 19:07:50,874 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-19 19:07:50,892 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-20 02:56:19,995 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-20 02:56:20,042 [WARNING] Sleep for 1.352089 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-07-20 02:56:21,429 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-20 02:56:21,430 [WARNING] Sleep for 1.820806 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-07-20 15:05:38,702 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-20 15:05:38,702 [WARNING] Sleep for 2.386824 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-07-20 15:05:41,099 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-20 15:05:41,099 [WARNING] Sleep for 3.213198 seconds and try again... (tryings = 4, bot id = 7660984376)
+2025-07-20 15:05:54,901 [INFO] Connection established (tryings = 5, bot id = 7660984376)
+2025-07-20 15:21:11,335 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-20 15:21:11,360 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-21 03:34:23,973 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-21 03:34:24,040 [WARNING] Sleep for 1.322527 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-07-21 06:53:44,676 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-21 06:53:44,676 [WARNING] Sleep for 1.675607 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-07-21 06:53:56,530 [INFO] Connection established (tryings = 3, bot id = 7660984376)
+2025-07-21 08:42:33,926 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-21 08:42:33,939 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-21 08:42:45,232 [INFO] Connection established (tryings = 1, bot id = 7660984376)
+2025-07-21 18:49:24,627 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-21 18:49:24,634 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-21 18:49:25,714 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-21 18:49:25,722 [WARNING] Sleep for 1.387517 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-07-21 18:49:37,645 [INFO] Connection established (tryings = 2, bot id = 7660984376)
+2025-07-22 03:33:55,530 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-22 03:33:55,531 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-22 08:13:13,350 [INFO] Connection established (tryings = 1, bot id = 7660984376)
+2025-07-22 10:59:43,031 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-22 10:59:43,498 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-22 11:00:13,999 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-07-22 11:00:14,000 [WARNING] Sleep for 1.383562 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-07-22 11:00:25,692 [INFO] Connection established (tryings = 2, bot id = 7660984376)
+2025-07-22 12:23:18,025 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-22 12:23:18,117 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-22 12:23:19,170 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-22 12:23:19,171 [WARNING] Sleep for 1.374504 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-07-22 12:23:20,554 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-22 12:23:20,554 [WARNING] Sleep for 1.670306 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-07-22 12:23:22,244 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-22 12:23:22,245 [WARNING] Sleep for 1.947108 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-07-22 13:03:31,101 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-22 13:03:31,102 [WARNING] Sleep for 2.328825 seconds and try again... (tryings = 4, bot id = 7660984376)
+2025-07-22 13:03:33,436 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-22 13:03:33,437 [WARNING] Sleep for 3.080503 seconds and try again... (tryings = 5, bot id = 7660984376)
+2025-07-22 19:18:39,332 [INFO] Connection established (tryings = 6, bot id = 7660984376)
+2025-07-22 19:33:28,972 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-22 19:33:28,973 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-22 19:33:40,142 [INFO] Connection established (tryings = 1, bot id = 7660984376)
+2025-07-22 20:12:21,783 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-22 20:12:21,933 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-07-22 20:13:18,931 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-07-22 20:13:18,938 [WARNING] Sleep for 1.353000 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-07-22 20:13:30,620 [INFO] Connection established (tryings = 2, bot id = 7660984376)
+2025-07-22 20:40:23,274 [INFO] Polling stopped
+2025-07-22 20:40:23,547 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-22 20:40:23,550 [INFO] 🛑 Бот остановлен вручную.
+2025-07-22 21:52:32,312 [INFO] ✅ База данных подключена.
+2025-07-22 21:52:32,312 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-22 21:52:33,602 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-22 21:52:33,604 [INFO] Start polling
+2025-07-22 21:52:33,787 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-22 21:53:05,061 [INFO] Update id=653453898 is handled. Duration 532 ms by bot id=7660984376
+2025-07-22 21:53:15,704 [INFO] Update id=653453899 is handled. Duration 469 ms by bot id=7660984376
+2025-07-22 21:53:21,649 [INFO] Update id=653453900 is handled. Duration 405 ms by bot id=7660984376
+2025-07-22 21:55:21,296 [INFO] Update id=653453901 is handled. Duration 406 ms by bot id=7660984376
+2025-07-22 21:55:31,311 [INFO] Update id=653453902 is handled. Duration 312 ms by bot id=7660984376
+2025-07-22 21:55:39,667 [INFO] Update id=653453903 is handled. Duration 234 ms by bot id=7660984376
+2025-07-22 21:55:41,785 [INFO] Update id=653453904 is handled. Duration 187 ms by bot id=7660984376
+2025-07-22 21:55:49,512 [INFO] Update id=653453905 is not handled. Duration 15 ms by bot id=7660984376
+2025-07-22 21:55:57,682 [INFO] Update id=653453906 is handled. Duration 500 ms by bot id=7660984376
+2025-07-22 22:00:50,679 [INFO] Polling stopped
+2025-07-22 22:00:50,937 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-22 22:00:50,941 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 17:19:51,273 [INFO] ✅ База данных подключена.
+2025-07-25 17:19:51,274 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 17:26:35,628 [INFO] ✅ База данных подключена.
+2025-07-25 17:26:35,629 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 17:26:36,501 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 17:26:36,502 [INFO] Start polling
+2025-07-25 17:26:36,705 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:26:54,699 [INFO] Update id=653453907 is handled. Duration 452 ms by bot id=7660984376
+2025-07-25 17:26:58,524 [INFO] Update id=653453908 is handled. Duration 108 ms by bot id=7660984376
+2025-07-25 17:27:07,248 [INFO] Update id=653453909 is handled. Duration 297 ms by bot id=7660984376
+2025-07-25 17:27:11,322 [INFO] Update id=653453910 is handled. Duration 77 ms by bot id=7660984376
+2025-07-25 17:27:16,341 [INFO] Update id=653453911 is handled. Duration 109 ms by bot id=7660984376
+2025-07-25 17:27:19,125 [INFO] Update id=653453912 is handled. Duration 94 ms by bot id=7660984376
+2025-07-25 17:28:16,778 [INFO] Update id=653453913 is handled. Duration 405 ms by bot id=7660984376
+2025-07-25 17:28:19,833 [INFO] Update id=653453914 is handled. Duration 94 ms by bot id=7660984376
+2025-07-25 17:28:24,280 [INFO] Update id=653453915 is handled. Duration 217 ms by bot id=7660984376
+2025-07-25 17:28:26,198 [INFO] Update id=653453916 is handled. Duration 405 ms by bot id=7660984376
+2025-07-25 17:28:28,745 [INFO] Update id=653453917 is handled. Duration 77 ms by bot id=7660984376
+2025-07-25 17:32:03,434 [INFO] Update id=653453918 is handled. Duration 437 ms by bot id=7660984376
+2025-07-25 17:32:06,159 [INFO] Update id=653453919 is handled. Duration 94 ms by bot id=7660984376
+2025-07-25 17:34:14,035 [INFO] Polling stopped
+2025-07-25 17:34:14,293 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:34:14,296 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 17:34:18,246 [INFO] ✅ База данных подключена.
+2025-07-25 17:34:18,247 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 17:34:19,071 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 17:34:19,071 [INFO] Start polling
+2025-07-25 17:34:19,243 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:34:35,987 [INFO] Update id=653453920 is handled. Duration 327 ms by bot id=7660984376
+2025-07-25 17:34:38,487 [INFO] Update id=653453921 is handled. Duration 405 ms by bot id=7660984376
+2025-07-25 17:34:42,408 [INFO] Update id=653453922 is handled. Duration 202 ms by bot id=7660984376
+2025-07-25 17:34:50,559 [INFO] Update id=653453923 is handled. Duration 140 ms by bot id=7660984376
+2025-07-25 17:34:57,372 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 17:34:57,487 [INFO] Update id=653453924 is handled. Duration 2890 ms by bot id=7660984376
+2025-07-25 17:35:07,718 [INFO] Update id=653453925 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-25 17:35:07,719 [ERROR] Cause exception while process update id=653453925 by bot id=7660984376
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\education.py", line 45, in choose_age_menu
+    keyboard=[[KeyboardButton(age)] for age in AGE_CHOICES] + [[KeyboardButton("🔙 Назад")]],
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-07-25 17:35:19,391 [INFO] Update id=653453926 is handled. Duration 420 ms by bot id=7660984376
+2025-07-25 17:35:34,547 [INFO] Polling stopped
+2025-07-25 17:35:34,820 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:35:34,821 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 17:36:37,801 [INFO] ✅ База данных подключена.
+2025-07-25 17:36:37,802 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 17:36:38,632 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 17:36:38,633 [INFO] Start polling
+2025-07-25 17:36:38,809 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:36:42,661 [INFO] Update id=653453927 is handled. Duration 202 ms by bot id=7660984376
+2025-07-25 17:36:43,840 [INFO] Update id=653453928 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-25 17:36:43,841 [ERROR] Cause exception while process update id=653453928 by bot id=7660984376
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\education.py", line 45, in choose_age_menu
+    keyboard=[[KeyboardButton(age)] for age in AGE_CHOICES] + [[KeyboardButton("🔙 Назад")]],
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-07-25 17:41:14,326 [INFO] Polling stopped
+2025-07-25 17:41:14,581 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:41:14,585 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 17:41:18,376 [INFO] ✅ База данных подключена.
+2025-07-25 17:41:18,377 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 17:41:19,163 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 17:41:19,164 [INFO] Start polling
+2025-07-25 17:41:19,347 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:41:29,830 [INFO] Update id=653453929 is not handled. Duration 16 ms by bot id=7660984376
+2025-07-25 17:41:29,830 [ERROR] Cause exception while process update id=653453929 by bot id=7660984376
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\education.py", line 46, in choose_age_menu
+    keyboard=[[KeyboardButton(age)] for age in AGE_CHOICES] + [[KeyboardButton("🔙 Назад в главное меню")]],
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-07-25 17:41:34,262 [INFO] Update id=653453930 is handled. Duration 702 ms by bot id=7660984376
+2025-07-25 17:41:36,655 [INFO] Update id=653453931 is handled. Duration 295 ms by bot id=7660984376
+2025-07-25 17:41:38,829 [INFO] Update id=653453932 is not handled. Duration 16 ms by bot id=7660984376
+2025-07-25 17:41:38,830 [ERROR] Cause exception while process update id=653453932 by bot id=7660984376
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\education.py", line 46, in choose_age_menu
+    keyboard=[[KeyboardButton(age)] for age in AGE_CHOICES] + [[KeyboardButton("🔙 Назад в главное меню")]],
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-07-25 17:41:50,042 [INFO] Update id=653453933 is handled. Duration 77 ms by bot id=7660984376
+2025-07-25 17:41:53,737 [INFO] Update id=653453934 is handled. Duration 234 ms by bot id=7660984376
+2025-07-25 17:41:55,495 [INFO] Update id=653453935 is handled. Duration 109 ms by bot id=7660984376
+2025-07-25 17:41:57,331 [INFO] Update id=653453936 is not handled. Duration 16 ms by bot id=7660984376
+2025-07-25 17:42:06,604 [INFO] Update id=653453937 is handled. Duration 282 ms by bot id=7660984376
+2025-07-25 17:42:08,001 [INFO] Update id=653453938 is not handled. Duration 15 ms by bot id=7660984376
+2025-07-25 17:42:11,537 [INFO] Update id=653453939 is handled. Duration 375 ms by bot id=7660984376
+2025-07-25 17:42:17,451 [INFO] Update id=653453940 is handled. Duration 155 ms by bot id=7660984376
+2025-07-25 17:42:23,742 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 17:42:23,871 [INFO] Update id=653453941 is handled. Duration 2594 ms by bot id=7660984376
+2025-07-25 17:42:24,967 [INFO] Update id=653453942 is handled. Duration 172 ms by bot id=7660984376
+2025-07-25 17:46:06,556 [INFO] Polling stopped
+2025-07-25 17:46:06,819 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:46:06,821 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 17:48:19,710 [INFO] ✅ База данных подключена.
+2025-07-25 17:48:19,726 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 17:48:20,562 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 17:48:20,562 [INFO] Start polling
+2025-07-25 17:48:20,764 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:48:24,754 [INFO] Update id=653453943 is handled. Duration 452 ms by bot id=7660984376
+2025-07-25 17:48:28,092 [INFO] Update id=653453944 is handled. Duration 94 ms by bot id=7660984376
+2025-07-25 17:48:29,931 [INFO] Update id=653453945 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-25 17:48:29,932 [ERROR] Cause exception while process update id=653453945 by bot id=7660984376
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\education.py", line 46, in choose_age_menu
+    keyboard=[[KeyboardButton(age)] for age in AGE_CHOICES] + [[KeyboardButton("🔙 Назад в главное меню")]],
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-07-25 17:48:36,807 [INFO] Update id=653453946 is handled. Duration 172 ms by bot id=7660984376
+2025-07-25 17:48:41,189 [INFO] Update id=653453947 is handled. Duration 15 ms by bot id=7660984376
+2025-07-25 17:48:57,504 [INFO] Update id=653453948 is handled. Duration 15 ms by bot id=7660984376
+2025-07-25 17:49:01,703 [INFO] Update id=653453949 is handled. Duration 0 ms by bot id=7660984376
+2025-07-25 17:49:12,867 [INFO] Update id=653453950 is handled. Duration 265 ms by bot id=7660984376
+2025-07-25 17:49:16,797 [INFO] Update id=653453951 is handled. Duration 0 ms by bot id=7660984376
+2025-07-25 17:49:22,481 [INFO] Update id=653453952 is handled. Duration 94 ms by bot id=7660984376
+2025-07-25 17:49:26,303 [INFO] Update id=653453953 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-25 17:49:26,303 [ERROR] Cause exception while process update id=653453953 by bot id=7660984376
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\education.py", line 46, in choose_age_menu
+    keyboard=[[KeyboardButton(age)] for age in AGE_CHOICES] + [[KeyboardButton("🔙 Назад в главное меню")]],
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-07-25 17:52:14,937 [INFO] Polling stopped
+2025-07-25 17:52:15,192 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:52:15,192 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 17:52:18,932 [INFO] ✅ База данных подключена.
+2025-07-25 17:52:18,932 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 17:52:19,807 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 17:52:19,807 [INFO] Start polling
+2025-07-25 17:52:19,999 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:52:24,913 [INFO] Update id=653453954 is handled. Duration 484 ms by bot id=7660984376
+2025-07-25 17:52:31,722 [INFO] Update id=653453955 is handled. Duration 422 ms by bot id=7660984376
+2025-07-25 17:52:34,161 [INFO] Update id=653453956 is not handled. Duration 0 ms by bot id=7660984376
+2025-07-25 17:52:34,162 [ERROR] Cause exception while process update id=653453956 by bot id=7660984376
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\education.py", line 46, in choose_age_menu
+    keyboard=[[KeyboardButton(age)] for age in AGE_CHOICES] + [[KeyboardButton("🔙 Назад в главное меню")]],
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-07-25 17:56:12,719 [INFO] Polling stopped
+2025-07-25 17:56:12,974 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:56:12,976 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 17:56:21,357 [INFO] ✅ База данных подключена.
+2025-07-25 17:56:21,357 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 17:56:22,193 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 17:56:22,193 [INFO] Start polling
+2025-07-25 17:56:22,375 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:56:28,882 [INFO] Update id=653453957 is handled. Duration 500 ms by bot id=7660984376
+2025-07-25 17:56:35,132 [INFO] Update id=653453958 is handled. Duration 155 ms by bot id=7660984376
+2025-07-25 17:56:38,916 [INFO] Update id=653453959 is handled. Duration 77 ms by bot id=7660984376
+2025-07-25 17:56:46,411 [INFO] Update id=653453960 is handled. Duration 77 ms by bot id=7660984376
+2025-07-25 17:56:51,646 [INFO] Update id=653453961 is not handled. Duration 15 ms by bot id=7660984376
+2025-07-25 17:57:00,716 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 17:57:00,819 [INFO] Update id=653453962 is handled. Duration 2375 ms by bot id=7660984376
+2025-07-25 17:57:13,230 [INFO] Update id=653453963 is handled. Duration 140 ms by bot id=7660984376
+2025-07-25 17:57:23,071 [INFO] Update id=653453964 is handled. Duration 108 ms by bot id=7660984376
+2025-07-25 17:57:29,071 [INFO] Update id=653453965 is handled. Duration 172 ms by bot id=7660984376
+2025-07-25 17:57:39,314 [INFO] Update id=653453966 is handled. Duration 92 ms by bot id=7660984376
+2025-07-25 17:59:52,460 [INFO] Polling stopped
+2025-07-25 17:59:52,716 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 17:59:52,721 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 18:00:05,868 [INFO] ✅ База данных подключена.
+2025-07-25 18:00:05,868 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 18:00:06,728 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 18:00:06,728 [INFO] Start polling
+2025-07-25 18:00:06,900 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 18:00:10,637 [INFO] Update id=653453967 is handled. Duration 562 ms by bot id=7660984376
+2025-07-25 18:00:13,055 [INFO] Update id=653453968 is handled. Duration 125 ms by bot id=7660984376
+2025-07-25 18:00:15,109 [INFO] Update id=653453969 is handled. Duration 79 ms by bot id=7660984376
+2025-07-25 18:00:17,008 [INFO] Update id=653453970 is handled. Duration 93 ms by bot id=7660984376
+2025-07-25 18:00:20,899 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 18:00:21,017 [INFO] Update id=653453971 is handled. Duration 1811 ms by bot id=7660984376
+2025-07-25 18:01:11,309 [INFO] Update id=653453972 is handled. Duration 532 ms by bot id=7660984376
+2025-07-25 18:04:48,370 [INFO] Polling stopped
+2025-07-25 18:04:48,629 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 18:04:48,632 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 18:11:45,305 [INFO] ✅ База данных подключена.
+2025-07-25 18:11:45,305 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 18:11:46,231 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 18:11:46,231 [INFO] Start polling
+2025-07-25 18:11:46,407 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 18:11:49,085 [INFO] Update id=653453973 is handled. Duration 203 ms by bot id=7660984376
+2025-07-25 18:11:54,742 [INFO] Update id=653453974 is handled. Duration 359 ms by bot id=7660984376
+2025-07-25 18:17:12,034 [INFO] Polling stopped
+2025-07-25 18:17:12,287 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 18:17:12,288 [INFO] 🛑 Бот остановлен вручную.
+2025-07-25 18:22:03,534 [INFO] ✅ База данных подключена.
+2025-07-25 18:22:03,534 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-25 18:22:05,241 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-25 18:22:05,241 [INFO] Start polling
+2025-07-25 18:22:05,426 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 18:22:28,852 [INFO] Update id=653453975 is not handled. Duration 32 ms by bot id=7660984376
+2025-07-25 18:22:39,377 [INFO] Update id=653453976 is handled. Duration 202 ms by bot id=7660984376
+2025-07-25 18:22:44,874 [INFO] Update id=653453977 is handled. Duration 94 ms by bot id=7660984376
+2025-07-25 18:22:51,768 [INFO] Update id=653453978 is handled. Duration 515 ms by bot id=7660984376
+2025-07-25 18:22:59,982 [INFO] Update id=653453979 is handled. Duration 125 ms by bot id=7660984376
+2025-07-25 18:23:03,109 [INFO] Update id=653453980 is handled. Duration 94 ms by bot id=7660984376
+2025-07-25 18:23:04,982 [INFO] Update id=653453981 is handled. Duration 204 ms by bot id=7660984376
+2025-07-25 18:23:08,670 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 18:23:08,763 [INFO] Update id=653453982 is handled. Duration 2655 ms by bot id=7660984376
+2025-07-25 18:23:24,277 [INFO] Update id=653453983 is handled. Duration 452 ms by bot id=7660984376
+2025-07-25 18:23:30,833 [INFO] Polling stopped
+2025-07-25 18:23:31,089 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-25 18:23:31,089 [INFO] 🛑 Бот остановлен вручную.
+2025-07-27 12:35:00,265 [INFO] ✅ База данных подключена.
+2025-07-27 12:35:00,267 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-27 12:35:02,815 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-27 12:35:02,816 [INFO] Start polling
+2025-07-27 12:35:03,018 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-27 12:35:38,799 [INFO] Update id=653453984 is handled. Duration 609 ms by bot id=7660984376
+2025-07-27 12:35:41,904 [INFO] Update id=653453985 is handled. Duration 109 ms by bot id=7660984376
+2025-07-27 12:35:44,739 [INFO] Update id=653453986 is handled. Duration 343 ms by bot id=7660984376
+2025-07-27 12:35:48,787 [INFO] Update id=653453987 is handled. Duration 155 ms by bot id=7660984376
+2025-07-27 12:36:00,022 [INFO] Update id=653453988 is handled. Duration 140 ms by bot id=7660984376
+2025-07-27 12:36:07,466 [INFO] Update id=653453989 is handled. Duration 844 ms by bot id=7660984376
+2025-07-27 12:36:18,997 [INFO] Update id=653453990 is handled. Duration 171 ms by bot id=7660984376
+2025-07-27 12:54:50,714 [INFO] Polling stopped
+2025-07-27 12:54:50,972 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-27 12:54:50,975 [INFO] 🛑 Бот остановлен вручную.
+2025-07-27 12:55:03,823 [INFO] ✅ База данных подключена.
+2025-07-27 12:55:03,825 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-07-27 12:55:05,157 [INFO] 🚀 Бот запущен и готов к работе!
+2025-07-27 12:55:05,157 [INFO] Start polling
+2025-07-27 12:55:05,357 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-27 12:55:16,940 [INFO] Update id=653453991 is not handled. Duration 15 ms by bot id=7660984376
+2025-07-27 12:55:20,541 [INFO] Update id=653453992 is handled. Duration 311 ms by bot id=7660984376
+2025-07-27 12:55:24,760 [INFO] Update id=653453993 is handled. Duration 344 ms by bot id=7660984376
+2025-07-27 12:55:28,083 [INFO] Update id=653453994 is handled. Duration 155 ms by bot id=7660984376
+2025-07-27 12:55:35,964 [INFO] Update id=653453995 is handled. Duration 125 ms by bot id=7660984376
+2025-07-27 12:58:23,165 [INFO] Polling stopped
+2025-07-27 12:58:23,421 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-07-27 12:58:23,426 [INFO] 🛑 Бот остановлен вручную.
+2025-08-03 12:42:56,268 [INFO] ✅ База данных подключена.
+2025-08-03 12:42:56,268 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-03 13:10:14,254 [INFO] ✅ База данных подключена.
+2025-08-03 13:10:14,254 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-03 13:30:13,136 [INFO] ✅ База данных подключена.
+2025-08-03 13:30:13,136 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-03 13:30:14,402 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-03 13:30:14,402 [INFO] Start polling
+2025-08-03 13:30:14,769 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 13:42:10,392 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-03 13:42:10,396 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-03 13:42:21,711 [INFO] Connection established (tryings = 1, bot id = 7660984376)
+2025-08-03 13:42:36,286 [INFO] Update id=653453996 is handled. Duration 500 ms by bot id=7660984376
+2025-08-03 13:42:41,690 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 13:42:43,564 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 13:42:44,846 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 13:42:45,102 [INFO] Update id=653453997 is handled. Duration 5688 ms by bot id=7660984376
+2025-08-03 13:43:33,885 [INFO] Update id=653453998 is handled. Duration 202 ms by bot id=7660984376
+2025-08-03 13:43:43,844 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 13:43:43,923 [INFO] Update id=653453999 is handled. Duration 6530 ms by bot id=7660984376
+2025-08-03 13:43:53,769 [INFO] Update id=653454000 is handled. Duration 344 ms by bot id=7660984376
+2025-08-03 13:43:56,866 [INFO] Update id=653454001 is handled. Duration 93 ms by bot id=7660984376
+2025-08-03 13:44:04,172 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 13:44:04,284 [INFO] Update id=653454002 is handled. Duration 2202 ms by bot id=7660984376
+2025-08-03 13:44:24,724 [INFO] Update id=653454003 is handled. Duration 406 ms by bot id=7660984376
+2025-08-03 13:44:28,431 [INFO] Update id=653454004 is handled. Duration 77 ms by bot id=7660984376
+2025-08-03 13:44:30,263 [INFO] Update id=653454005 is handled. Duration 141 ms by bot id=7660984376
+2025-08-03 13:44:35,301 [INFO] Update id=653454006 is handled. Duration 280 ms by bot id=7660984376
+2025-08-03 13:44:38,335 [INFO] Update id=653454007 is handled. Duration 202 ms by bot id=7660984376
+2025-08-03 13:44:43,233 [INFO] Update id=653454008 is handled. Duration 93 ms by bot id=7660984376
+2025-08-03 13:44:45,483 [INFO] Update id=653454009 is handled. Duration 250 ms by bot id=7660984376
+2025-08-03 13:44:47,174 [INFO] Update id=653454010 is handled. Duration 172 ms by bot id=7660984376
+2025-08-03 13:44:51,086 [INFO] Update id=653454011 is handled. Duration 172 ms by bot id=7660984376
+2025-08-03 13:44:54,681 [INFO] Update id=653454012 is handled. Duration 77 ms by bot id=7660984376
+2025-08-03 13:44:56,671 [INFO] Update id=653454013 is not handled. Duration 16 ms by bot id=7660984376
+2025-08-03 13:47:17,598 [INFO] Update id=653454014 is not handled. Duration 16 ms by bot id=7660984376
+2025-08-03 13:47:23,890 [INFO] Polling stopped
+2025-08-03 13:47:24,147 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 13:47:24,147 [INFO] 🛑 Бот остановлен вручную.
+2025-08-03 13:59:41,822 [INFO] ✅ База данных подключена.
+2025-08-03 13:59:41,822 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-03 13:59:42,607 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-03 13:59:42,607 [INFO] Start polling
+2025-08-03 13:59:42,800 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 13:59:58,152 [INFO] Update id=653454015 is handled. Duration 453 ms by bot id=7660984376
+2025-08-03 14:00:06,820 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:00:09,100 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:00:10,276 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:00:10,416 [INFO] Update id=653454016 is handled. Duration 5452 ms by bot id=7660984376
+2025-08-03 14:01:13,942 [INFO] Update id=653454017 is handled. Duration 218 ms by bot id=7660984376
+2025-08-03 14:01:21,048 [INFO] Update id=653454018 is not handled. Duration 16 ms by bot id=7660984376
+2025-08-03 14:01:21,048 [ERROR] Cause exception while process update id=653454018 by bot id=7660984376
+TypeError: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\49333\PycharmProjects\mamabot\handlers\progress.py", line 45, in history_handler
+    text = "\n".join([f"— {entry['activity']} ({entry['timestamp']})" for entry in last_week])
+                           ~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-08-03 14:01:30,370 [INFO] Update id=653454019 is handled. Duration 234 ms by bot id=7660984376
+2025-08-03 14:01:37,194 [INFO] Update id=653454020 is handled. Duration 296 ms by bot id=7660984376
+2025-08-03 14:01:41,589 [INFO] Update id=653454021 is handled. Duration 77 ms by bot id=7660984376
+2025-08-03 14:01:46,393 [INFO] Update id=653454022 is handled. Duration 110 ms by bot id=7660984376
+2025-08-03 14:01:48,741 [INFO] Update id=653454023 is handled. Duration 78 ms by bot id=7660984376
+2025-08-03 14:01:50,490 [INFO] Update id=653454024 is handled. Duration 250 ms by bot id=7660984376
+2025-08-03 14:01:52,703 [INFO] Update id=653454025 is not handled. Duration 15 ms by bot id=7660984376
+2025-08-03 14:03:43,360 [INFO] Update id=653454026 is not handled. Duration 15 ms by bot id=7660984376
+2025-08-03 14:21:51,393 [INFO] Polling stopped
+2025-08-03 14:21:51,652 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 14:21:51,655 [INFO] 🛑 Бот остановлен вручную.
+2025-08-03 14:25:43,275 [INFO] ✅ База данных подключена.
+2025-08-03 14:25:43,276 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-03 14:25:44,104 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-03 14:25:44,104 [INFO] Start polling
+2025-08-03 14:25:44,278 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 14:25:50,552 [INFO] Update id=653454027 is handled. Duration 500 ms by bot id=7660984376
+2025-08-03 14:26:00,610 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:26:02,237 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:26:03,786 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:26:04,672 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:26:05,608 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:26:07,827 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 14:26:07,937 [INFO] Update id=653454028 is handled. Duration 9562 ms by bot id=7660984376
+2025-08-03 14:26:31,717 [INFO] Update id=653454029 is handled. Duration 234 ms by bot id=7660984376
+2025-08-03 14:26:34,939 [INFO] Update id=653454030 is handled. Duration 327 ms by bot id=7660984376
+2025-08-03 14:26:37,831 [INFO] Update id=653454031 is handled. Duration 172 ms by bot id=7660984376
+2025-08-03 14:26:38,868 [INFO] Update id=653454032 is handled. Duration 93 ms by bot id=7660984376
+2025-08-03 14:26:40,585 [INFO] Update id=653454033 is handled. Duration 250 ms by bot id=7660984376
+2025-08-03 14:26:42,526 [INFO] Update id=653454034 is handled. Duration 297 ms by bot id=7660984376
+2025-08-03 14:26:43,899 [INFO] Update id=653454035 is handled. Duration 78 ms by bot id=7660984376
+2025-08-03 14:26:48,136 [INFO] Update id=653454036 is handled. Duration 422 ms by bot id=7660984376
+2025-08-03 14:27:10,169 [INFO] Polling stopped
+2025-08-03 14:27:10,433 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 14:27:10,435 [INFO] 🛑 Бот остановлен вручную.
+2025-08-03 14:27:17,580 [INFO] ✅ База данных подключена.
+2025-08-03 14:27:17,580 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-03 14:27:18,577 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-03 14:27:18,577 [INFO] Start polling
+2025-08-03 14:27:18,751 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 14:27:20,353 [INFO] Update id=653454037 is not handled. Duration 16 ms by bot id=7660984376
+2025-08-03 14:27:34,275 [INFO] Polling stopped
+2025-08-03 14:27:34,537 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 14:27:34,537 [INFO] 🛑 Бот остановлен вручную.
+2025-08-03 14:31:39,293 [INFO] ✅ База данных подключена.
+2025-08-03 14:31:39,293 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-03 14:31:40,101 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-03 14:31:40,101 [INFO] Start polling
+2025-08-03 14:31:40,299 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 14:31:48,711 [INFO] Update id=653454038 is handled. Duration 436 ms by bot id=7660984376
+2025-08-03 14:31:52,605 [INFO] Update id=653454039 is handled. Duration 94 ms by bot id=7660984376
+2025-08-03 14:31:55,810 [INFO] Update id=653454040 is handled. Duration 93 ms by bot id=7660984376
+2025-08-03 14:32:00,596 [INFO] Update id=653454041 is handled. Duration 94 ms by bot id=7660984376
+2025-08-03 14:32:04,183 [INFO] Update id=653454042 is handled. Duration 155 ms by bot id=7660984376
+2025-08-03 14:32:16,632 [INFO] Polling stopped
+2025-08-03 14:32:16,884 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-03 14:32:16,884 [INFO] 🛑 Бот остановлен вручную.
+2025-08-07 11:45:18,249 [INFO] ✅ База данных подключена.
+2025-08-07 11:45:18,249 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-07 11:45:19,372 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-07 11:45:19,372 [INFO] Start polling
+2025-08-07 11:45:19,576 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-07 11:45:29,260 [INFO] Update id=653454043 is handled. Duration 827 ms by bot id=7660984376
+2025-08-07 11:45:33,124 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 11:45:35,682 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 11:45:36,809 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 11:45:38,487 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 11:45:39,677 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 11:45:40,483 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 11:45:40,613 [INFO] Update id=653454044 is handled. Duration 9327 ms by bot id=7660984376
+2025-08-07 11:46:13,212 [INFO] Polling stopped
+2025-08-07 11:46:13,468 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-07 11:46:13,472 [INFO] 🛑 Бот остановлен вручную.
+2025-08-09 11:42:03,203 [INFO] ✅ База данных подключена.
+2025-08-09 11:42:03,203 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-09 11:42:04,362 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-09 11:42:04,374 [INFO] Start polling
+2025-08-09 11:42:04,565 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-09 11:42:30,330 [INFO] Update id=653454045 is handled. Duration 688 ms by bot id=7660984376
+2025-08-09 11:42:36,793 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-09 11:42:38,032 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-09 11:42:38,951 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-09 11:42:39,059 [INFO] Update id=653454046 is handled. Duration 4203 ms by bot id=7660984376
+2025-08-09 11:43:00,543 [INFO] Update id=653454047 is not handled. Duration 14 ms by bot id=7660984376
+2025-08-09 11:43:08,275 [INFO] Polling stopped
+2025-08-09 11:43:08,532 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-09 11:43:08,532 [INFO] 🛑 Бот остановлен вручную.
+2025-08-09 12:43:14,068 [INFO] ✅ База данных подключена.
+2025-08-09 12:43:14,068 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-09 12:43:14,903 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-09 12:43:14,903 [INFO] Start polling
+2025-08-09 12:43:15,077 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-09 12:43:55,375 [INFO] Update id=653454048 is handled. Duration 405 ms by bot id=7660984376
+2025-08-09 12:43:58,813 [INFO] Recent: handler triggered for user 5398798816
+2025-08-09 12:43:58,909 [INFO] Update id=653454049 is handled. Duration 94 ms by bot id=7660984376
+2025-08-09 12:44:05,538 [INFO] Polling stopped
+2025-08-09 12:44:05,798 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-09 12:44:05,798 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:41:46,042 [INFO] ✅ База данных подключена.
+2025-08-10 17:41:46,042 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:41:47,495 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:41:47,495 [INFO] Start polling
+2025-08-10 17:41:47,701 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:42:08,721 [INFO] Update id=653454050 is handled. Duration 530 ms by bot id=7660984376
+2025-08-10 17:42:13,958 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:42:15,185 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:42:16,322 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:42:16,503 [INFO] Update id=653454051 is handled. Duration 5171 ms by bot id=7660984376
+2025-08-10 17:42:45,257 [INFO] Update id=653454052 is handled. Duration 250 ms by bot id=7660984376
+2025-08-10 17:42:49,055 [INFO] Update id=653454053 is handled. Duration 78 ms by bot id=7660984376
+2025-08-10 17:47:18,568 [INFO] Polling stopped
+2025-08-10 17:47:18,824 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:47:18,824 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:50:24,797 [INFO] ✅ База данных подключена.
+2025-08-10 17:50:24,797 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:50:25,606 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:50:25,606 [INFO] Start polling
+2025-08-10 17:50:25,794 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:50:29,928 [INFO] Update id=653454054 is handled. Duration 219 ms by bot id=7660984376
+2025-08-10 17:50:35,621 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:50:35,747 [INFO] Update id=653454055 is handled. Duration 2015 ms by bot id=7660984376
+2025-08-10 17:50:45,644 [INFO] Update id=653454056 is handled. Duration 78 ms by bot id=7660984376
+2025-08-10 17:50:49,007 [INFO] Update id=653454057 is handled. Duration 328 ms by bot id=7660984376
+2025-08-10 17:51:00,310 [INFO] Update id=653454058 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 17:51:05,419 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:51:05,560 [INFO] Update id=653454059 is handled. Duration 1688 ms by bot id=7660984376
+2025-08-10 17:51:28,874 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:51:28,963 [INFO] Update id=653454060 is handled. Duration 3359 ms by bot id=7660984376
+2025-08-10 17:51:40,542 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:51:40,634 [INFO] Update id=653454061 is handled. Duration 2157 ms by bot id=7660984376
+2025-08-10 17:51:56,582 [INFO] Polling stopped
+2025-08-10 17:51:56,833 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:51:56,833 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:57:29,859 [INFO] ✅ База данных подключена.
+2025-08-10 17:57:29,859 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:57:30,632 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:57:30,632 [INFO] Start polling
+2025-08-10 17:57:30,808 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:57:42,114 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-10 17:57:42,299 [INFO] Update id=653454062 is handled. Duration 3891 ms by bot id=7660984376
+2025-08-10 17:57:52,742 [INFO] Update id=653454063 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 17:57:55,670 [INFO] Update id=653454064 is handled. Duration 78 ms by bot id=7660984376
+2025-08-10 17:57:57,415 [INFO] Update id=653454065 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 17:58:33,135 [INFO] Polling stopped
+2025-08-10 17:58:33,387 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:58:33,390 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:58:44,147 [INFO] ✅ База данных подключена.
+2025-08-10 17:58:44,148 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:58:44,993 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:58:44,994 [INFO] Start polling
+2025-08-10 17:58:45,181 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:58:45,757 [INFO] Update id=653454066 is handled. Duration 516 ms by bot id=7660984376
+2025-08-10 17:58:49,912 [INFO] Update id=653454067 is handled. Duration 125 ms by bot id=7660984376
+2025-08-10 17:58:52,115 [INFO] Update id=653454068 is handled. Duration 108 ms by bot id=7660984376
+2025-08-10 17:58:56,055 [INFO] Update id=653454069 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 17:58:58,304 [INFO] Update id=653454070 is handled. Duration 328 ms by bot id=7660984376
+2025-08-10 17:59:00,336 [INFO] Update id=653454071 is handled. Duration 125 ms by bot id=7660984376
+2025-08-10 17:59:02,574 [INFO] Update id=653454072 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 17:59:06,022 [INFO] Update id=653454073 is handled. Duration 483 ms by bot id=7660984376
+2025-08-10 17:59:09,568 [INFO] Update id=653454074 is handled. Duration 311 ms by bot id=7660984376
+2025-08-10 17:59:46,086 [INFO] Polling stopped
+2025-08-10 17:59:46,350 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 17:59:46,350 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 17:59:58,379 [INFO] ✅ База данных подключена.
+2025-08-10 17:59:58,379 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 17:59:59,251 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 17:59:59,251 [INFO] Start polling
+2025-08-10 17:59:59,425 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:00:07,159 [INFO] Update id=653454075 is handled. Duration 389 ms by bot id=7660984376
+2025-08-10 18:00:10,675 [INFO] Update id=653454076 is handled. Duration 155 ms by bot id=7660984376
+2025-08-10 18:00:13,787 [INFO] Update id=653454077 is handled. Duration 469 ms by bot id=7660984376
+2025-08-10 18:00:15,995 [INFO] Update id=653454078 is handled. Duration 171 ms by bot id=7660984376
+2025-08-10 18:00:55,207 [INFO] Polling stopped
+2025-08-10 18:00:55,465 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:00:55,471 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 18:22:37,936 [INFO] ✅ База данных подключена.
+2025-08-10 18:22:37,936 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 18:22:38,762 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 18:22:38,762 [INFO] Start polling
+2025-08-10 18:22:38,951 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:22:45,606 [INFO] Update id=653454079 is handled. Duration 578 ms by bot id=7660984376
+2025-08-10 18:23:13,597 [INFO] Update id=653454080 is handled. Duration 202 ms by bot id=7660984376
+2025-08-10 18:23:22,969 [INFO] Update id=653454081 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:23:27,714 [INFO] Update id=653454082 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:23:29,301 [INFO] Update id=653454083 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 18:23:31,289 [INFO] Update id=653454084 is handled. Duration 219 ms by bot id=7660984376
+2025-08-10 18:23:33,879 [INFO] Update id=653454085 is handled. Duration 375 ms by bot id=7660984376
+2025-08-10 18:23:35,583 [INFO] Update id=653454086 is handled. Duration 125 ms by bot id=7660984376
+2025-08-10 18:23:37,219 [INFO] Update id=653454087 is handled. Duration 296 ms by bot id=7660984376
+2025-08-10 18:23:40,449 [INFO] Update id=653454088 is handled. Duration 78 ms by bot id=7660984376
+2025-08-10 18:23:44,208 [INFO] Update id=653454089 is handled. Duration 61 ms by bot id=7660984376
+2025-08-10 18:23:46,624 [INFO] Update id=653454090 is handled. Duration 77 ms by bot id=7660984376
+2025-08-10 18:23:48,553 [INFO] Update id=653454091 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:23:50,616 [INFO] Update id=653454092 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 18:23:54,398 [INFO] Update id=653454093 is handled. Duration 108 ms by bot id=7660984376
+2025-08-10 18:23:55,940 [INFO] Update id=653454094 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 18:23:57,389 [INFO] Update id=653454095 is handled. Duration 94 ms by bot id=7660984376
+2025-08-10 18:24:01,917 [INFO] Update id=653454096 is handled. Duration 280 ms by bot id=7660984376
+2025-08-10 18:24:07,484 [INFO] Update id=653454097 is handled. Duration 92 ms by bot id=7660984376
+2025-08-10 18:24:20,697 [INFO] Polling stopped
+2025-08-10 18:24:20,952 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:24:20,952 [INFO] 🛑 Бот остановлен вручную.
+2025-08-10 18:24:39,099 [INFO] ✅ База данных подключена.
+2025-08-10 18:24:39,099 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-10 18:24:39,925 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-10 18:24:39,925 [INFO] Start polling
+2025-08-10 18:24:40,122 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:24:45,821 [INFO] Update id=653454098 is handled. Duration 265 ms by bot id=7660984376
+2025-08-10 18:24:51,703 [INFO] Update id=653454099 is handled. Duration 125 ms by bot id=7660984376
+2025-08-10 18:24:54,915 [INFO] Update id=653454100 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:24:56,342 [INFO] Update id=653454101 is handled. Duration 219 ms by bot id=7660984376
+2025-08-10 18:25:02,763 [INFO] Update id=653454102 is handled. Duration 328 ms by bot id=7660984376
+2025-08-10 18:25:03,960 [INFO] Update id=653454103 is handled. Duration 109 ms by bot id=7660984376
+2025-08-10 18:25:05,589 [INFO] Update id=653454104 is handled. Duration 234 ms by bot id=7660984376
+2025-08-10 18:25:10,770 [INFO] Polling stopped
+2025-08-10 18:25:11,027 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-10 18:25:11,033 [INFO] 🛑 Бот остановлен вручную.
+2025-08-11 21:01:28,889 [INFO] ✅ База данных подключена.
+2025-08-11 21:01:28,889 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-11 21:01:30,378 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-11 21:01:30,378 [INFO] Start polling
+2025-08-11 21:01:30,571 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:01:35,788 [INFO] Polling stopped
+2025-08-11 21:01:36,046 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:01:36,046 [INFO] 🛑 Бот остановлен вручную.
+2025-08-11 21:01:49,286 [INFO] ✅ База данных подключена.
+2025-08-11 21:01:49,288 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-11 21:01:50,365 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-11 21:01:50,365 [INFO] Start polling
+2025-08-11 21:01:50,557 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:02:10,643 [INFO] Update id=653454105 is handled. Duration 750 ms by bot id=7660984376
+2025-08-11 21:02:24,296 [INFO] Update id=653454106 is handled. Duration 109 ms by bot id=7660984376
+2025-08-11 21:02:32,953 [INFO] Update id=653454107 is handled. Duration 405 ms by bot id=7660984376
+2025-08-11 21:02:39,196 [INFO] Polling stopped
+2025-08-11 21:02:39,465 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:02:39,468 [INFO] 🛑 Бот остановлен вручную.
+2025-08-11 21:08:59,992 [INFO] ✅ База данных подключена.
+2025-08-11 21:08:59,992 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-11 21:09:01,023 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-11 21:09:01,023 [INFO] Start polling
+2025-08-11 21:09:01,228 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-11 21:09:06,954 [INFO] Update id=653454108 is handled. Duration 344 ms by bot id=7660984376
+2025-08-11 21:09:10,306 [INFO] Update id=653454109 is handled. Duration 390 ms by bot id=7660984376
+2025-08-11 21:11:11,757 [INFO] Update id=653454110 is handled. Duration 235 ms by bot id=7660984376
+2025-08-11 21:11:15,333 [INFO] Update id=653454111 is handled. Duration 765 ms by bot id=7660984376
+2025-08-11 21:30:26,807 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-11 21:30:26,814 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-12 08:07:47,916 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 08:07:47,985 [WARNING] Sleep for 1.256777 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-08-12 08:07:49,269 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-12 08:07:49,269 [WARNING] Sleep for 1.638502 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-08-12 08:07:50,915 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-12 08:07:50,915 [WARNING] Sleep for 2.236841 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-08-12 08:54:07,263 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-12 08:54:07,265 [WARNING] Sleep for 2.972163 seconds and try again... (tryings = 4, bot id = 7660984376)
+2025-08-12 08:54:10,246 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-12 08:54:10,246 [WARNING] Sleep for 3.757513 seconds and try again... (tryings = 5, bot id = 7660984376)
+2025-08-12 10:04:50,723 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 10:04:50,723 [WARNING] Sleep for 4.922937 seconds and try again... (tryings = 6, bot id = 7660984376)
+2025-08-12 10:05:05,900 [INFO] Connection established (tryings = 7, bot id = 7660984376)
+2025-08-12 10:41:38,271 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 10:41:38,289 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-12 10:41:49,627 [INFO] Connection established (tryings = 1, bot id = 7660984376)
+2025-08-12 11:44:22,300 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 11:44:22,303 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-12 11:44:33,713 [INFO] Connection established (tryings = 1, bot id = 7660984376)
+2025-08-12 17:55:02,990 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-12 17:55:03,577 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-13 04:13:56,374 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-13 04:13:56,450 [WARNING] Sleep for 1.219533 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-08-13 04:13:57,740 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 04:13:57,741 [WARNING] Sleep for 1.717692 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-08-13 04:13:59,470 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 04:13:59,481 [WARNING] Sleep for 2.373813 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-08-13 05:01:13,079 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 05:01:13,080 [WARNING] Sleep for 2.997142 seconds and try again... (tryings = 4, bot id = 7660984376)
+2025-08-13 10:24:12,591 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:24:12,595 [WARNING] Sleep for 3.856967 seconds and try again... (tryings = 5, bot id = 7660984376)
+2025-08-13 10:24:26,813 [INFO] Connection established (tryings = 6, bot id = 7660984376)
+2025-08-13 10:45:29,453 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-13 10:45:29,493 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-13 10:55:06,064 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-13 10:55:06,077 [WARNING] Sleep for 1.414045 seconds and try again... (tryings = 1, bot id = 7660984376)
+2025-08-13 10:55:07,505 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:55:07,505 [WARNING] Sleep for 1.763855 seconds and try again... (tryings = 2, bot id = 7660984376)
+2025-08-13 10:55:09,278 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:55:09,279 [WARNING] Sleep for 2.369322 seconds and try again... (tryings = 3, bot id = 7660984376)
+2025-08-13 10:55:22,208 [INFO] Connection established (tryings = 4, bot id = 7660984376)
+2025-08-13 11:33:06,241 [INFO] Polling stopped
+2025-08-13 11:33:06,538 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-13 11:33:06,554 [INFO] 🛑 Бот остановлен вручную.
+2025-08-13 11:45:11,798 [INFO] ✅ База данных подключена.
+2025-08-13 11:45:11,799 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-13 11:45:13,831 [INFO] 🚀 Бот запущен и готов к работе!
+2025-08-13 11:45:13,832 [INFO] Start polling
+2025-08-13 11:45:13,999 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-13 11:45:20,285 [INFO] Update id=653454112 is handled. Duration 342 ms by bot id=7660984376
+2025-08-13 11:45:24,746 [INFO] Update id=653454113 is handled. Duration 469 ms by bot id=7660984376
+2025-08-13 11:45:27,610 [INFO] Update id=653454114 is handled. Duration 625 ms by bot id=7660984376
+2025-08-13 11:46:21,506 [INFO] Update id=653454115 is handled. Duration 203 ms by bot id=7660984376
+2025-08-13 11:47:30,275 [INFO] Update id=653454116 is handled. Duration 561 ms by bot id=7660984376
+2025-08-13 11:47:31,681 [INFO] Update id=653454117 is handled. Duration 94 ms by bot id=7660984376
+2025-08-13 11:54:33,746 [INFO] Polling stopped
+2025-08-13 11:54:33,799 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2685)
+2025-08-13 11:54:33,799 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7660984376)
+2025-08-13 11:54:34,004 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-13 11:54:34,004 [INFO] 🛑 Бот остановлен вручную.
+2025-08-14 19:11:26,246 [INFO] ✅ База данных подключена.
+2025-08-14 19:11:26,247 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-14 19:11:27,405 [INFO] 🚀 Бот запускается...
+2025-08-14 19:11:27,406 [INFO] 🌐 Fondy webhook listening at: http://localhost:8080/fondy/webhook
+2025-08-14 19:11:27,406 [INFO] 🤖 Старт поллинга Telegram...
+2025-08-14 19:11:27,407 [INFO] Start polling
+2025-08-14 19:11:27,602 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-14 19:11:55,289 [INFO] Update id=653454118 is handled. Duration 655 ms by bot id=7660984376
+2025-08-14 19:11:57,518 [INFO] Update id=653454119 is handled. Duration 94 ms by bot id=7660984376
+2025-08-14 19:12:09,598 [INFO] Update id=653454120 is handled. Duration 405 ms by bot id=7660984376
+2025-08-14 19:12:57,640 [INFO] Update id=653454121 is handled. Duration 188 ms by bot id=7660984376
+2025-08-14 19:13:02,060 [INFO] Update id=653454122 is handled. Duration 94 ms by bot id=7660984376
+2025-08-14 19:13:05,161 [INFO] Update id=653454123 is handled. Duration 92 ms by bot id=7660984376
+2025-08-14 19:13:07,306 [INFO] Update id=653454124 is handled. Duration 125 ms by bot id=7660984376
+2025-08-14 19:13:10,291 [INFO] Update id=653454125 is handled. Duration 375 ms by bot id=7660984376
+2025-08-14 19:13:12,424 [INFO] Update id=653454126 is handled. Duration 109 ms by bot id=7660984376
+2025-08-14 19:13:16,370 [INFO] Update id=653454127 is handled. Duration 78 ms by bot id=7660984376
+2025-08-14 19:13:18,733 [INFO] Update id=653454128 is handled. Duration 342 ms by bot id=7660984376
+2025-08-14 19:13:21,115 [INFO] Update id=653454129 is handled. Duration 109 ms by bot id=7660984376
+2025-08-14 19:13:27,320 [INFO] Update id=653454130 is handled. Duration 657 ms by bot id=7660984376
+2025-08-14 19:13:31,807 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 19:13:33,240 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 19:13:33,959 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 19:13:34,047 [INFO] Update id=653454131 is handled. Duration 5000 ms by bot id=7660984376
+2025-08-14 19:13:41,535 [INFO] Update id=653454132 is handled. Duration 92 ms by bot id=7660984376
+2025-08-14 19:13:46,641 [INFO] Update id=653454133 is handled. Duration 94 ms by bot id=7660984376
+2025-08-14 19:13:47,661 [INFO] Update id=653454134 is handled. Duration 108 ms by bot id=7660984376
+2025-08-14 19:13:51,359 [INFO] Update id=653454135 is handled. Duration 250 ms by bot id=7660984376
+2025-08-14 19:13:55,350 [INFO] Update id=653454136 is handled. Duration 109 ms by bot id=7660984376
+2025-08-14 19:14:01,287 [INFO] Polling stopped
+2025-08-14 19:14:01,554 [INFO] 🧹 Поллинг завершён. Бот остановлен.
+2025-08-14 19:14:01,555 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-14 19:14:01,559 [INFO] 🛑 Бот остановлен вручную.
+2025-08-14 19:14:22,780 [INFO] ✅ База данных подключена.
+2025-08-14 19:14:22,780 [INFO] 📂 Папки созданы: pdfs/checklists, pdfs/guides, assets/voices
+2025-08-14 19:14:23,585 [INFO] 🚀 Бот запускается...
+2025-08-14 19:14:23,601 [INFO] 🌐 Fondy webhook listening at: http://localhost:8080/fondy/webhook
+2025-08-14 19:14:23,601 [INFO] 🤖 Старт поллинга Telegram...
+2025-08-14 19:14:23,601 [INFO] Start polling
+2025-08-14 19:14:23,761 [INFO] Run polling for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-14 19:14:31,672 [INFO] Update id=653454137 is handled. Duration 452 ms by bot id=7660984376
+2025-08-14 19:14:33,776 [INFO] Update id=653454138 is handled. Duration 141 ms by bot id=7660984376
+2025-08-14 19:14:36,445 [INFO] Update id=653454139 is handled. Duration 94 ms by bot id=7660984376
+2025-08-14 19:14:39,791 [INFO] Update id=653454140 is handled. Duration 92 ms by bot id=7660984376
+2025-08-14 19:14:42,191 [INFO] Update id=653454141 is handled. Duration 219 ms by bot id=7660984376
+2025-08-14 19:14:43,575 [INFO] Update id=653454142 is handled. Duration 78 ms by bot id=7660984376
+2025-08-14 19:14:46,443 [INFO] Update id=653454143 is handled. Duration 688 ms by bot id=7660984376
+2025-08-14 19:14:49,404 [INFO] Update id=653454144 is handled. Duration 547 ms by bot id=7660984376
+2025-08-14 19:14:57,068 [INFO] Update id=653454145 is handled. Duration 405 ms by bot id=7660984376
+2025-08-14 19:15:04,432 [INFO] Polling stopped
+2025-08-14 19:15:04,692 [INFO] 🧹 Поллинг завершён. Бот остановлен.
+2025-08-14 19:15:04,693 [INFO] Polling stopped for bot @tvoj_mamabot id=7660984376 - 'Мама знает'
+2025-08-14 19:15:04,696 [INFO] 🛑 Бот остановлен вручную.

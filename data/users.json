@@ -1,1 +1,13 @@
-{}
+{
+  "123456789": {
+    "age_range": "3 года",
+    "trial_start": "2025-07-03T14:30:00"
+  },
+  "5398798816": {
+    "trial_start": "2025-07-08T15:14:53.213768",
+    "age_range": "2–4 года",
+    "day_with_timmy_last_gen": "2025-08-14",
+    "education_ai_last_gen": "2025-08-10",
+    "tips_last_gen": "2025-08-10"
+  }
+}
